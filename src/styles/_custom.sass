@@ -75,13 +75,25 @@ figcaption, table caption
     background-position: center
     background-repeat: no-repeat
   &--cards
-    background-image: url("../assets/curso/common/bg-cards.png")
+    background-image: url("../assets/curso/common/bg-gradient.png")
     background-size: cover
     background-position: center
     background-repeat: no-repeat
 
+.bg-gradient
+  background-image: url("../assets/curso/common/bg-gradient.png")
+  background-size: cover
+  background-position: center
+  background-repeat: no-repeat
+
 .bg-card-verde
   background-image: url("../assets/curso/common/bg-slider-verde.png")
+  background-size: cover
+  background-position: center
+  background-repeat: no-repeat
+
+.bg-cards-acento
+  background-image: url("../assets/curso/common/bg-cards-acento.png")
   background-size: cover
   background-position: center
   background-repeat: no-repeat
@@ -118,6 +130,9 @@ figcaption, table caption
   margin: 0 auto
 .imgw-190
   width: 190px
+  margin: 0 auto
+.imgw-324
+  width: 324px
   margin: 0 auto
 
 .bg-slider
@@ -191,10 +206,14 @@ figcaption, table caption
     background-color: $color-secundario-s10
   .col-lg-4.col-xl-3
     @media screen and (min-width: $bp-min-lg)
-      width: 37%
+      width: 50%
+    @media screen and (min-width: $bp-min-xl)
+      width: 55%
   .col-lg-8.col-xl-9
     @media screen and (min-width: $bp-min-lg)
-      width: 63%
+      width: 50%
+    @media screen and (min-width: $bp-min-xl)
+      width: 45%
 
 .titulo-con-imagen
   display: flex

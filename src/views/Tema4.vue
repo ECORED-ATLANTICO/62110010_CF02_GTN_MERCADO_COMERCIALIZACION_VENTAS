@@ -5,91 +5,190 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 4
-      h1 Segmentación y posicionamiento de mercado
-      
-    .bg-primario-p5.mb-4.mb-lg-5(data-aos="fade-up")
+      h1 Indicadores y seguimiento del desempeño comercial 
+
+    .bg-primario-p5.mb-3(data-aos="fade-up")
       .row.justify-content-center.align-items-center
         .col-lg-auto
           figure
             img(src='@/assets/curso/tema4/1.png', alt='')
         .col-lg
           .p-4
-            p.mb-0 La segmentación y el posicionamiento constituyen herramientas fundamentales dentro de la planeación comercial y de mercadeo. Su aplicación permite identificar grupos específicos de consumidores, comprender sus necesidades y diseñar estrategias orientadas a generar valor. Asimismo, facilitan la diferenciación de la oferta empresarial y fortalecen la competitividad dentro del mercado.
+            p.mb-0 Los indicadores y los mecanismos de seguimiento permiten conocer el desempeño de las acciones comerciales y de mercadeo, contrastar los resultados obtenidos con los objetivos establecidos e identificar necesidades de ajuste. Su utilización proporciona información relevante para orientar el control de la gestión y apoyar la toma de decisiones. 
 
     separador
     
     #t_4_1.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-      h2 4.1 Segmentación y mercado objetivo
+      h2 4.1 Concepto e importancia de los indicadores 
 
     .row.justify-content-center.align-items-center.mb-4.mb-lg-5.z-2
       .col-lg-9
-        p La segmentación de mercado es el proceso mediante el cual una organización divide un mercado amplio en grupos de consumidores con características, necesidades o comportamientos similares. Esta práctica permite desarrollar estrategias más efectivas y optimizar la utilización de los recursos comerciales. 
-        .rounded-4.bg-terciario-t5.p-4.mb-3.py-3
-          p.mb-0 La segmentación facilita la comprensión de los clientes y contribuye a diseñar productos, servicios y mensajes ajustados a sus expectativas. Al conocer mejor el mercado, las organizaciones pueden aumentar la efectividad de sus acciones comerciales y fortalecer la relación con los consumidores. 
-        p.mb-4.mb-lg-0 A continuación, se presentan los principales criterios de segmentación del mercado y los aspectos que deben considerarse para definir el mercado objetivo de una organización. 
+        p Un indicador es una medida cuantitativa o cualitativa utilizada para representar y evaluar el comportamiento o resultado de una actividad, proceso u objetivo. En la gestión comercial y de mercadeo, los indicadores permiten transformar los datos disponibles en información útil para analizar el desempeño y verificar el avance frente a las metas establecidas. 
+        .bg-terciario-t5.p-4.mb-3.py-3.rounded-4
+          p.mb-0 Su importancia radica en que proporcionan criterios objetivos para realizar seguimiento a los resultados, identificar variaciones y fundamentar decisiones relacionadas con el cumplimiento del plan comercial y de mercadeo. 
       .col-sm-6.col-lg-3
         figure
           img(data-aos="fade-down-right", src="@/assets/curso/tema4/2.png", alt="")
-    
-    .row.justify-content-center.align-items-center.z-2
-      .col-sm-6.col-lg-3.d-none.d-xl-block
-        figure
-          img(data-aos="fade-down-right", src="@/assets/curso/tema4/3.png", alt="")
-      .col-xl-9
-        TabsA.color-secundario.custom-tabs
-          .tarjeta.p-4.bg-contenido-a5.py-5(titulo="Segmentación demográfica")
-            p Clasifica a los consumidores según variables como edad, género, nivel educativo, ocupación, ingresos y estado civil. 
-            p.mb-0 #[strong Ejemplo:] una empresa de productos para bebés dirige sus estrategias hacia padres jóvenes con hijos menores de cinco años. 
-          .tarjeta.p-4.bg-contenido-a5.py-5(titulo="Segmentación geográfica")
-            p Divide el mercado según la ubicación de los consumidores, considerando país, región, ciudad, clima o densidad poblacional. 
-            p.mb-0 #[strong Ejemplo:] una empresa de prendas para clima frío concentra sus esfuerzos en regiones con bajas temperaturas. 
-          .tarjeta.p-4.bg-contenido-a5.py-5(titulo="Segmentación psicográfica")
-            p Considera estilos de vida, personalidad, intereses, valores y preferencias para comprender las motivaciones de compra. 
-            p.mb-0 #[strong Ejemplo:] una empresa de productos ecológicos dirige su oferta a consumidores interesados en la sostenibilidad. 
-          .tarjeta.p-4.bg-contenido-a5.py-5(titulo="Segmentación conductual")
-            p Analiza el comportamiento de los consumidores mediante variables como hábitos de compra, frecuencia de consumo, beneficios buscados y fidelidad. 
-            p.mb-0 #[strong Ejemplo:] una aerolínea ofrece beneficios especiales a viajeros frecuentes para fortalecer su lealtad. 
-          .tarjeta.p-4.bg-contenido-a5.py-5(titulo="Mercado objetivo")
-            p Es el grupo de consumidores seleccionado por la organización para dirigir sus esfuerzos comerciales y de mercadeo. Su definición considera el tamaño del segmento, potencial de crecimiento, rentabilidad y capacidad de atención. 
-            p.mb-0 #[strong Ejemplo:] una empresa selecciona como mercado objetivo un segmento rentable cuyas necesidades puede atender mediante su oferta. 
 
+    .titulo-con-imagen.mb-5.z-2(data-aos="fade-right")
+      .titulo-con-imagen__fondo
+        img.titulo-con-imagen__imagen(src="@/assets/curso/common/icon-title.png")
+        h3.titulo-con-imagen__texto Importancia de los indicadores en la gestión comercial 
+
+    .bg-slider.p-3.px-2.p-md-4.rounded-4.mb-4.mb-lg-5
+      .row.justify-content-center.align-items-center
+        .col-lg-4.d-none.d-lg-block
+          figure
+            img.imgw-324(src='@/assets/curso/tema4/3.png', alt='')
+        .col-lg-8
+          SlyderF(columnas="col-xl-6")
+            .tarjeta.bg-cards-acento.p-4.pt-5
+              .row.justify-content-center.mb-3
+                .col-6.col-sm-4.col-xl-5
+                  img(src='@/assets/curso/tema4/8.svg' alt='')
+              h5.text-center Medición del desempeño
+              p.text-center.mb-0 Permiten evaluar el comportamiento y los resultados de actividades, procesos o estrategias comerciales mediante información relacionada con aspectos como ventas, clientes, rentabilidad o participación en el mercado.
+            .tarjeta.bg-cards-acento.p-4.pt-5
+              .row.justify-content-center.mb-3
+                .col-6.col-sm-4.col-xl-5
+                  img(src='@/assets/curso/tema4/9.svg' alt='')
+              h5.text-center Evaluación de resultados
+              p.text-center.mb-0 Facilitan la comparación entre los resultados obtenidos y las metas establecidas para determinar el nivel de cumplimiento e identificar posibles desviaciones.
+            .tarjeta.bg-cards-acento.p-4.pt-5
+              .row.justify-content-center.mb-3
+                .col-6.col-sm-4.col-xl-5
+                  img(src='@/assets/curso/tema4/10.svg' alt='')
+              h5.text-center Apoyo a la toma de decisiones
+              p.text-center.mb-0 Proporcionan información objetiva que permite analizar situaciones, identificar oportunidades de mejora y fundamentar decisiones relacionadas con la gestión comercial.
+            .tarjeta.bg-cards-acento.p-4.pt-5
+              .row.justify-content-center.mb-3
+                .col-6.col-sm-4.col-xl-5
+                  img(src='@/assets/curso/tema4/11.svg' alt='')
+              h5.text-center Comparación y análisis de tendencias
+              p.text-center.mb-0 Permiten contrastar resultados entre diferentes períodos e identificar variaciones, tendencias y comportamientos relevantes para el desempeño comercial. 
+            .tarjeta.bg-cards-acento.p-4.pt-5
+              .row.justify-content-center.mb-3
+                .col-6.col-sm-4.col-xl-5
+                  img(src='@/assets/curso/tema4/12.svg' alt='')
+              h5.text-center Seguimiento y control
+              p.text-center.mb-0 Facilitan el monitoreo de las actividades comerciales y permiten verificar periódicamente el avance hacia el cumplimiento de los objetivos establecidos.
+
+    p Empresas como Bancolombia, Grupo Nutresa y Ecopetrol utilizan sistemas de indicadores para evaluar resultados, monitorear el desempeño de sus operaciones y fortalecer la toma de decisiones estratégicas orientadas al crecimiento y la competitividad empresarial. 
+    p.mb-0 El valor de un indicador no radica únicamente en obtener un dato, sino en #[strong interpretarlos en relación con una meta, un período o un resultado esperado]. Por esta razón, la selección de indicadores pertinentes es fundamental para realizar un seguimiento efectivo del desempeño comercial. 
+    
     separador
     
     #t_4_2.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-      h2 4.2	Posicionamiento y diferenciación
+      h2 4.2	Indicadores de gestión comercial 
 
-    img(data-aos="fade-up")(src="@/assets/curso/tema4/4.png", alt="")
+    img(src="@/assets/curso/tema4/4.png", alt="", data-aos="zoom-in-down")
     
     .row.justify-content-center.z-2
       .col-lg-10.p-4(data-aos="fade-down")
         div.banner-text.shadow
-          p.mb-0 El posicionamiento corresponde al lugar que ocupa una marca, producto o servicio en la mente de los consumidores en comparación con las alternativas disponibles en el mercado. Su propósito es generar una percepción favorable que influya en la decisión de compra y fortalezca la preferencia de los clientes. 
+          p.mb-0 Los indicadores de gestión comercial permiten medir diferentes aspectos relacionados con las ventas, los clientes y los resultados obtenidos por la organización. Su selección debe responder a los objetivos y metas establecidos en el plan comercial y de mercadeo, de manera que la información obtenida contribuya al seguimiento del desempeño y a la toma de decisiones. 
 
-    p.mb-4 Por su parte, la diferenciación consiste en desarrollar características distintivas que permitan a una organización destacarse frente a la competencia. Ambas estrategias trabajan de manera complementaria para fortalecer la competitividad empresarial y mejorar la percepción del mercado. 
+    p.mb-4.mb-lg-5 Los indicadores de gestión comercial permiten medir diferentes aspectos relacionados con las ventas, los clientes y los resultados obtenidos por la organización. Su selección debe responder a los objetivos y metas establecidos en el plan comercial y de mercadeo, de manera que la información obtenida contribuya al seguimiento del desempeño y a la toma de decisiones. 
+
+    .titulo-sexto.color-acento-contenido.mb-4
+      h5 Tabla 2.
+      span Indicadores de gestión comercial
+    .tabla-a.color-acento-contenido.tabla-a--text-left.mb-5
+      table
+        thead
+          tr(style="background-color: #FFF8F5")
+            th Indicador
+            th ¿Qué permite medir?
+            th Fórmula
+            th Ejemplo
+            th Interpretación
+        tbody
+          tr(style="background-color: #F6F6F6")
+            td #[strong Cumplimiento de ventas]
+            td Nivel de logro respecto de una meta de ventas establecida. 
+            td (Ventas reales ÷ Meta de ventas) × 100 
+            td (90.000.000 ÷ 100.000.000) × 100 
+            td #[strong 90 %]. Se alcanzó el 90 % de la meta establecida. 
+          tr
+            td #[strong Crecimiento de ventas]
+            td Variación de las ventas actuales respecto de un período anterior. 
+            td ((Ventas actuales − Ventas anteriores) ÷ Ventas anteriores) × 100 
+            td ((120.000.000 − 100.000.000) ÷ 100.000.000) × 100 
+            td #[strong 20 %]. Las ventas aumentaron un 20 % respecto del período anterior. 
+          tr(style="background-color: #F6F6F6")
+            td #[strong Tasa de conversión]
+            td Proporción de prospectos atendidos que concretan una venta. 
+            td (Ventas realizadas ÷ Prospectos atendidos) × 100 
+            td (40 ÷ 200) × 100 
+            td #[strong 20 %]. De cada 100 prospectos atendidos, 20 concretaron una compra. 
+          tr
+            td #[strong Nivel de satisfacción del cliente]
+            td Proporción de clientes satisfechos respecto del total de clientes encuestados. 
+            td (Clientes satisfechos ÷ Total de clientes encuestados) × 100 
+            td (180 ÷ 200) × 100 
+            td #[strong 90 %]. Nueve de cada diez clientes encuestados manifestaron satisfacción. 
+          tr(style="background-color: #F6F6F6")
+            td #[strong Índice de fidelización]
+            td Proporción de clientes que permanecen respecto del total considerado. 
+            td (Clientes que permanecen ÷ Total de clientes) × 100 
+            td (450 ÷ 500) × 100 
+            td #[strong 90 %]. El 90 % de los clientes considerados permanece vinculado. 
+
+    .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-5
+      .bloque-texto-g__img(
+        :style="{'background-image': `url(${require_src('@/assets/curso/tema4/5.png')})`}"
+      )
+      .bloque-texto-g__texto.p-4
+        p.mb-0 El cálculo de un indicador adquiere utilidad cuando su resultado se interpreta en relación con una meta, un período de comparación o un resultado esperado. Por ejemplo, alcanzar un 90 % de cumplimiento de ventas indica que aún existe una diferencia del 10 % frente a la meta establecida, mientras que una tasa de conversión del 20 % permite analizar qué proporción de los prospectos atendidos se convierte efectivamente en clientes. El documento ya plantea esta lógica interpretativa y considero importante conservarla y fortalecerla.  
+
+    p.mb-0 Los indicadores deben analizarse de manera periódica y en relación con los objetivos del plan comercial y de mercadeo. Su comparación permite identificar avances, desviaciones y resultados que requieren atención, proporcionando información para establecer acciones de mejora. 
+
+    separador
+    #t_4_3.titulo-segundo.color-acento-contenido(data-aos="flip-up")
+      h2 4.3	Seguimiento y control del plan comercial 
 
     .row.justify-content-center.align-items-center.mb-4.mb-lg-5
-      .col-sm-6.col-lg-3.d-none.d-lg-block
+      .col-sm-6.col-lg-3
         figure
-          img.mb-4.mb-lg-0(src="@/assets/curso/tema4/5.png", alt="" data-aos="zoom-in-down")
+          img.mb-4.mb-lg-0(src="@/assets/curso/tema4/6.png", alt="" data-aos="zoom-in-down")
       .col-lg-9
-        AcordionA(tipo="b" clase-tarjeta="tarjeta bg-primario")
-          div(titulo="Posicionamiento de mercado ")
-            .me-lg-5
-              p El posicionamiento busca construir una imagen clara y relevante para los consumidores. Para lograrlo, las organizaciones deben identificar aquellos atributos que resultan importantes para sus clientes y comunicar de manera efectiva los beneficios que ofrecen. 
-              p Las estrategias de posicionamiento pueden basarse en atributos del producto, beneficios, calidad, precio, innovación, experiencia del cliente o liderazgo dentro de una categoría específica. La elección dependerá de las características del mercado y de la propuesta de valor de la organización. 
-              p.mb-0 Por ejemplo, una empresa de telefonía móvil puede posicionarse como líder en cobertura y conectividad, mientras que otra puede enfocarse en ofrecer planes económicos y accesibles para diferentes segmentos de consumidores. 
-          div(titulo="Diferenciación empresarial ")
-            .me-lg-5
-              p La diferenciación consiste en desarrollar elementos que hagan única la oferta de una organización frente a sus competidores. Estos elementos pueden estar relacionados con características del producto, servicio al cliente, tecnología, innovación, diseño o experiencia de compra. 
-              p Una estrategia de diferenciación efectiva permite reducir la sensibilidad al precio y fortalecer la preferencia de los consumidores. Además, contribuye a generar ventajas competitivas sostenibles que favorecen el crecimiento empresarial. 
-              p.mb-0 Por ejemplo, una cafetería puede diferenciarse mediante la utilización de café de origen certificado, experiencias personalizadas para los clientes y prácticas responsables con el medio ambiente. 
-          div(titulo="Beneficios del posicionamiento y la diferenciación ")
-            .me-lg-5
-              p La aplicación adecuada de estrategias de posicionamiento y diferenciación contribuye al fortalecimiento de la imagen corporativa, al incremento de la participación de mercado y a la construcción de relaciones duraderas con los clientes. Asimismo, facilita la comunicación de la propuesta de valor y mejora la capacidad de la organización para competir en mercados cada vez más exigentes. 
-              p.mb-0 Las empresas que logran posicionarse de manera efectiva y diferenciarse de sus competidores tienen mayores posibilidades de atraer nuevos clientes, fidelizar consumidores actuales y alcanzar resultados sostenibles en el largo plazo. 
+        p El seguimiento del plan comercial consiste en recopilar y analizar periódicamente información sobre las actividades, estrategias y resultados obtenidos durante su ejecución. Su propósito es verificar el avance frente a los objetivos y metas establecidos e identificar oportunamente posibles desviaciones.
+        .bg-img.bg-img--contenido.p-4.py-3.rounded-4.overflow-hidden
+          p.mb-0 El control complementa el seguimiento mediante la evaluación de los resultados y la definición de acciones orientadas a corregir desviaciones o mejorar el desempeño. Para ello, es necesario comparar los resultados obtenidos con las metas establecidas y utilizar los indicadores definidos para el plan comercial y de mercadeo. Esta relación entre recopilación de información, análisis de indicadores, comparación y establecimiento de acciones ya está planteada en el documento y conviene mantenerla. 
 
-    .row.justify-content-center.align-items-center.mb-4
-      .col-xl-10
+    .titulo-con-imagen.mb-5.z-2(data-aos="fade-right")
+      .titulo-con-imagen__fondo
+        img.titulo-con-imagen__imagen(src="@/assets/curso/common/icon-title.png")
+        h3.titulo-con-imagen__texto Seguimiento y control del plan comercial 
+
+    p.mb-4 A continuación se describen los pasos o etapas para el correcto y eficiente de seguimiento y control del plan comercial: 
+    
+
+    .row.justify-content-center.align-items-center.z-2.mb-4
+      .col-xl-6
+        TabsA.color-secundario.custom-tabs.mb-4.mb-lg-0
+          .tarjeta.p-4.bg-contenido-a5.py-5(titulo="Paso 1. Recopilar información ")
+            p.mb-0 Obtener periódicamente los datos relacionados con las actividades, resultados e indicadores definidos en el plan comercial y de mercadeo. 
+          .tarjeta.p-4.bg-contenido-a5.py-5(titulo="Paso 2. Analizar los indicadores ")
+            p.mb-0 Calcular y revisar los indicadores seleccionados para conocer el comportamiento de los resultados comerciales. 
+          .tarjeta.p-4.bg-contenido-a5.py-5(titulo="Paso 3. Comparar los resultados ")
+            p.mb-0 Contrastar los resultados obtenidos con las metas, objetivos o períodos de referencia establecidos. 
+          .tarjeta.p-4.bg-contenido-a5.py-5(titulo="Paso 4. Identificar desviaciones ")
+            p.mb-0 Reconocer diferencias entre los resultados esperados y los alcanzados, así como situaciones que puedan afectar el cumplimiento del plan. 
+          .tarjeta.p-4.bg-contenido-a5.py-5(titulo="Paso 5. Definir acciones de mejora ")
+            p.mb-0 Establecer medidas orientadas a corregir desviaciones, fortalecer los resultados o ajustar las acciones comerciales cuando sea necesario. 
+          .tarjeta.p-4.bg-contenido-a5.py-5(titulo="Paso 6. Realizar nuevo seguimiento ")
+            p.mb-0 Verificar posteriormente los resultados de las acciones implementadas y determinar si contribuyeron al mejoramiento del desempeño. 
+      .col-lg-3.col-xl-2.d-none.d-xl-block
+        figure
+          img(src="@/assets/curso/tema4/7.png", data-aos="fade-down-right")
+      .col-xl-4
+        p.mb-0 El seguimiento y control pueden apoyarse en actividades como la elaboración de informes comerciales, la revisión periódica de indicadores, la evaluación del desempeño de los equipos de ventas y las reuniones de análisis de resultados. Estas actividades facilitan la organización de la información y permiten establecer acciones oportunas frente al desempeño observado. El documento original ya contempla estas actividades.  
+
+    .row.justify-content-center.align-items-center
+      .col-lg-4
+        p.mb-lg-0 Los indicadores adquieren valor para la gestión cuando se utilizan de manera sistemática para realizar seguimiento, comparar resultados e identificar necesidades de ajuste. Por tanto, su adecuada selección, cálculo e interpretación contribuye al control del plan comercial y de mercadeo y proporciona información para orientar la toma de decisiones. 
+      .col-lg-8
         .tarjeta.bg-img.bg-img--primario.p-4
           .row.justify-content-around.align-items-center
             .col-3.col-lg-2.d-none.d-lg-block
@@ -97,26 +196,13 @@
             .col
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
-                  h5.mb-1 Estrategias de segmentación y posicionamiento 
-                  p.mb-0 Para fortalecer los conocimientos sobre las estrategias de segmentación y el posicionamiento de mercado, se recomienda consultar el siguiente video, en el cual se explican diferentes estrategias para orientar la oferta empresarial hacia segmentos específicos y establecer una posición diferenciada en el mercado. 
+                  h5.mb-1 Indicadores de gestión
+                  p.mb-0 Se recomienda consultar el siguiente recurso audiovisual, en el cual se explican los principales indicadores de gestión comercial y su importancia para el seguimiento de resultados, la evaluación del desempeño y la toma de decisiones empresariales: 
                 .col-sm-auto.d-flex.gap-2.flex-column
-                  a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=MtOIJyRJ7jI" target="_blank")
+                  a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=91b3REuGMTs" target="_blank")
                     span Ir al recurso
 
-    .row.justify-content-center.align-items-center
-      .col-xl-10
-        .bg-audio.rounded-4.p-4
-          .row.align-items-center.justify-content-center
-            .col-sm-8.col-lg-8
-              p A continuación, se invita a ir al siguiente podcast: 
-              TarjetaAudio.mb-3.color-primario(
-                texto="¿A qué cliente me dirijo y cómo quiero que me perciba? La importancia de la segmentación y el posicionamiento para los emprendedores "
-                tiempo
-                :audio="require_src('@/assets/curso/podcast/podcast1.mp3')"
-                @audio-hover="mostrarIndicadorTarjetaAudio = false")
-            .col-8.col-sm-4
-              figure.pt-3
-                img.imgw-190.mb-4.mb-lg-0(src="@/assets/curso/common/mic.png", alt="")
+
 
 
 
