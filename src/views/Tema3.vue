@@ -5,127 +5,178 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 3
-      h1 Análisis estratégico y oportunidades de mercado
+      h1 Canales de distribución y venta 
 
-    .row.justify-content-center.align-items-center.mb-4.mb-lg-5
-      .col-4.col-sm-2.col-lg-1
-        figure
-          img.mb-4.mb-lg-0(src="@/assets/curso/tema1/1.png", alt="" data-aos="zoom-in-down")
-      .col-lg-11
-        p.mb-0 El análisis estratégico permite comprender la situación actual de una organización y su entorno, facilitando la identificación de oportunidades y desafíos que pueden influir en el cumplimiento de los objetivos empresariales. Mediante la aplicación de diferentes herramientas de análisis, las empresas pueden obtener información relevante para la toma de decisiones y la formulación de estrategias comerciales y de mercadeo orientadas al crecimiento y la competitividad. 
+    img(data-aos="fade-up")(src="@/assets/curso/tema3/1.png", alt="")
+    .row.justify-content-center.z-2
+      .col-lg-10.p-4(data-aos="fade-down")
+        div.banner-text.shadow
+          p.mb-0 Los canales de distribución y venta permiten conectar los productos y servicios con los consumidores finales. Su selección influye en la disponibilidad de la oferta, la experiencia del cliente, la cobertura del mercado y el cumplimiento de los objetivos comerciales. Por esta razón, las organizaciones deben seleccionar canales acordes con las características de sus productos o servicios, sus clientes y los mercados que atienden. 
 
     separador
     
     #t_3_1.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-      h2 3.1	Análisis interno y externo de la empresa
+      h2 3.1	Concepto y funciones 
 
-    .bg-secundario-s5.mb-4.mb-lg-5(data-aos="fade-up")
+    p Los canales de distribución corresponden al conjunto de organizaciones, personas y medios que participan en el proceso de traslado de productos o servicios desde el productor hasta el consumidor final. Su función principal consiste en facilitar el intercambio comercial y garantizar que los bienes o servicios estén disponibles en el lugar, momento y condiciones requeridas por los clientes. 
+
+    .row.justify-content-center.align-items-center.mb-4
+      .col-sm-6.col-lg-3
+        figure
+          img.mb-4.mb-lg-0(src="@/assets/curso/tema3/2.png", alt="" data-aos="zoom-in-down")
+      .col-lg-9
+        p Estos canales permiten reducir la distancia entre productores y consumidores, facilitando el acceso a los mercados y mejorando la eficiencia de las operaciones comerciales. Asimismo, contribuyen a optimizar los procesos logísticos, disminuir costos de comercialización y fortalecer la atención al cliente. 
+        .bg-terciario-t5.p-4.rounded-4.py-3.mb-3
+          p.mb-0 Entre las principales funciones de los canales de distribución se encuentran la promoción de productos, el almacenamiento, el transporte, la gestión de pedidos, la atención comercial y el servicio al cliente. Estas actividades permiten generar valor tanto para la organización como para los consumidores. 
+        p.mb-0 Los canales también facilitan la recopilación de información sobre el comportamiento de compra, las preferencias de los clientes y las condiciones del mercado, aspectos fundamentales para la toma de decisiones comerciales. 
+    
+    .bg-botones-a5.mb-3(data-aos="fade-up")
       .row.justify-content-center.align-items-center
-        .col-lg-auto
-          figure
-            img(src='@/assets/curso/tema3/2.png', alt='')
         .col-lg
           .p-4
-            p.mb-0 El análisis estratégico se desarrolla mediante el estudio de factores internos y externos que afectan el desempeño organizacional. Esta evaluación permite conocer las capacidades de la empresa, identificar oportunidades de mejora y anticipar cambios en el entorno que puedan generar riesgos o ventajas competitivas.
+            p.mb-0 Por ejemplo, empresas como Postobón y Alpina utilizan amplias redes de distribución para garantizar la disponibilidad de sus productos en supermercados, tiendas de barrio, restaurantes y otros puntos de venta en todo el país. 
+        .col-lg-auto
+          figure
+            img(src='@/assets/curso/tema3/3.png', alt='')
 
-    p.mb-4 Para comprender los factores que influyen en el desempeño de una organización, es necesario diferenciar aquellos que se encuentran bajo su control de los que provienen del entorno. A continuación, se presentan los principales aspectos del análisis interno y externo de la empresa: 
-
-    .p-4.bg-slider.rounded-4.mb-5
-      .tarjeta.tarjeta--blanca
-        SlyderA(tipo="a")
-          div.my-5.w-75.mx-auto
-            .row.justify-content-center.align-items-center
-              .col-lg-9
-                h5.mb-1 Análisis interno
-                p.mb-0 Evalúa los recursos, capacidades, procesos y resultados de una organización para identificar fortalezas y debilidades que influyen en el desempeño empresarial. 
-                p.mb-0 #[strong Aspectos que se analizan:] estructura organizacional, situación financiera, talento humano, procesos operativos, capacidad tecnológica, gestión comercial y calidad de productos o servicios. 
-                p.mb-4.mb-lg-0 #[strong Ejemplo:] una empresa identifica como fortaleza la experiencia de su equipo comercial y como debilidad su limitada presencia en canales digitales. 
-              .col-sm-6.col-lg-3
-                img(src="@/assets/curso/tema3/3.png", alt="")
-          div.my-5.w-75.mx-auto
-            .row.justify-content-center.align-items-center
-              .col-lg-9
-                h5.mb-1 Análisis externo
-                p.mb-0 Evalúa los factores del entorno que pueden afectar positiva o negativamente el desarrollo de la organización y que se encuentran fuera de su control directo. 
-                p.mb-0 #[strong Aspectos que se analizan:] condiciones económicas, tendencias del mercado, cambios tecnológicos, competencia, regulaciones gubernamentales y comportamiento de los consumidores. 
-                p.mb-4.mb-lg-0 #[strong Ejemplo:] el incremento en el uso de canales digitales puede representar una oportunidad para ampliar la cobertura comercial mediante plataformas electrónicas. 
-              .col-sm-6.col-lg-3
-                img(src="@/assets/curso/tema3/4.png", alt="")
-
-    .titulo-con-imagen.mb-5.z-2(data-aos="fade-right")
-      .titulo-con-imagen__fondo
-        img.titulo-con-imagen__imagen(src="@/assets/curso/common/icon-title.png")
-        h3.titulo-con-imagen__texto Importancia del análisis estratégico
-
-    p.mb-0.z-2 La integración del análisis interno y externo proporciona una visión completa de la situación empresarial. Esta información permite fundamentar la toma de decisiones, optimizar el uso de recursos y diseñar estrategias alineadas con las condiciones reales del mercado y las capacidades organizacionales. 
+    p.mb-0 La adecuada articulación de estas funciones contribuye a acercar la oferta al consumidor, mejorar la eficiencia de la comercialización y generar información relevante para la gestión comercial. La forma en que estas funciones se desarrollan depende del tipo de canal seleccionado, aspecto que se aborda a continuación. 
 
     .fullwidth-bg.fullwidth-bg--1
     separador
     #t_3_2.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-      h2 3.2	Matriz DOFA, PEST y <em>Benchmark</em>
+      h2 3.2	Tipos de canales de distribución 
 
-    p.z-2 Las herramientas de análisis estratégico facilitan la recopilación y organización de información relevante para la toma de decisiones empresariales. Entre las más utilizadas se encuentran la matriz DOFA, el análisis PEST y el #[em Benchmark], debido a su utilidad para comprender la realidad organizacional y las dinámicas del entorno.  
-    p.mb-4.z-2 A continuación, se presentan estas herramientas de análisis estratégico y su utilidad para identificar factores internos y externos, reconocer oportunidades de mejora y apoyar la toma de decisiones empresariales. 
+    .bloque-texto-g.color-acento-botones.p-3.p-sm-4.p-md-5.mb-4
+      .bloque-texto-g__img(
+        :style="{'background-image': `url(${require_src('@/assets/curso/tema3/4.png')})`}"
+      )
+      .bloque-texto-g__texto.p-4
+        p.mb-0 Las organizaciones pueden utilizar diferentes canales de distribución de acuerdo con sus objetivos comerciales, las características de los productos o servicios, el mercado que atienden y el perfil de sus clientes. Una de las principales diferencias entre estos canales se relaciona con la participación de intermediarios y la forma en que la oferta llega al consumidor final. 
 
-    .row.justify-content-center.align-items-center.z-2
-      .col-sm-6.col-lg-3.d-none.d-lg-block
+    p.mb-4 En la siguiente tabla a continuación, se describen los tipos de canales de distribución: 
+
+    .titulo-sexto.color-acento-contenido.mb-4
+      h5 Tabla 1.
+      span Tipos de canales de distribución 
+    .tabla-a.color-acento-contenido.tabla-a--text-left.mb-5
+      table
+        thead
+          tr(style="background-color: #FFF8F5")
+            th Tipo de canal 
+            th(colspan="2") ¿Cómo funciona? 
+            th(colspan="2") Característica principal 
+        tbody
+          tr(style="background-color: #F6F6F6")
+            td #[strong Canal directo]
+            td(colspan="2") Productor → consumidor final 
+            td(colspan="2") No participan intermediarios. Permite mayor control sobre la comercialización y una relación directa con el cliente.
+          tr
+            td #[strong Canal indirecto corto]
+            td(colspan="2") Productor → minorista → consumidor final 
+            td(colspan="2") Participa un intermediario, generalmente un minorista, que facilita el acceso de la oferta al mercado.
+          tr(style="background-color: #F6F6F6")
+            td #[strong Canal indirecto largo]
+            td(colspan="2") Productor → distribuidor o mayorista → minorista → consumidor final 
+            td(colspan="2") Participan varios intermediarios y permite ampliar la cobertura y disponibilidad de los productos.
+          tr
+            td #[strong Canal digital]
+            td(colspan="2") Oferta → plataforma o entorno digital → consumidor 
+            td(colspan="2") La comercialización se realiza mediante medios digitales que facilitan la interacción y la compra.
+
+    .row.justify-content-center.align-items-center.mb-4
+      .col-lg-3
+        p.mb-lg-0 La selección del canal depende de las condiciones particulares de cada organización y de su mercado. Un canal directo puede favorecer el contacto con el cliente y el control de la experiencia comercial, mientras que los canales indirectos permiten ampliar la cobertura mediante intermediarios. Por su parte, los canales digitales facilitan la comercialización a través de entornos tecnológicos y pueden complementar otros canales utilizados por la organización. 
+      .col-sm-6.col-lg-3
         figure
-          img(data-aos="fade-down-right", src="@/assets/curso/tema3/5.png", alt="")
-      .col-lg-9
-        TabsA.color-secundario
-          .tarjeta.p-4.bg-contenido-a5.py-5(titulo="Matriz DOFA")
-            p La matriz DOFA permite identificar fortalezas, debilidades, oportunidades y amenazas de una organización. Las fortalezas y debilidades corresponden a factores internos, mientras que las oportunidades y amenazas se relacionan con factores externos. Su análisis facilita la formulación de estrategias y la planificación empresarial. 
-            p.mb-0 #[strong Ejemplo:] una empresa identifica como fortaleza el reconocimiento de su marca, como debilidad la baja inversión tecnológica, como oportunidad el crecimiento de la demanda y como amenaza el ingreso de nuevos competidores. 
-          .tarjeta.p-4.bg-contenido-a5.py-5(titulo="Análisis PEST")
-            p El análisis PEST permite estudiar factores políticos, económicos, sociales y tecnológicos que pueden influir en las actividades de una organización. Su aplicación facilita la identificación de tendencias, oportunidades y riesgos del entorno, fortaleciendo la capacidad de adaptación empresarial. 
-            p.mb-0 #[strong Ejemplo:] una empresa analiza cambios en las regulaciones, la inflación, los hábitos de consumo y los avances tecnológicos para anticipar escenarios y ajustar sus estrategias. 
-          .tarjeta.p-4.bg-contenido-a5.py-5(titulo="<em>Benchmark</em>")
-            p El benchmark consiste en comparar procesos, productos, servicios o estrategias con organizaciones reconocidas por sus buenas prácticas. Esta comparación permite identificar oportunidades de mejora, promover la innovación y fortalecer la competitividad. 
-            p.mb-0 #[strong Ejemplo:] una empresa de comercio electrónico analiza las estrategias de servicio al cliente de compañías líderes para identificar mejoras aplicables a sus propios procesos. 
+          img.mb-4.mb-lg-0(src="@/assets/curso/tema3/5.png", alt="" data-aos="zoom-in-down")
+      .col-lg-6
+        p Empresas como Temu, Mercado Libre y Amazon basan gran parte de su operación comercial en este tipo de canal. 
+        .bg-img.bg-img--contenido.p-4.rounded-4.overflow-hidden
+          p.mb-0 La elección del canal de distribución debe responder a los objetivos comerciales, las características de la oferta y las necesidades del mercado. A partir de los canales seleccionados, las organizaciones pueden establecer diferentes #[strong estrategias de venta y comercialización] orientadas a mejorar su cobertura y facilitar el acceso de los clientes a sus productos o servicios. 
 
     separador
 
     #t_3_3.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-      h2 3.3	Oportunidades de mercado
+      h2 3.3	Estrategias de venta y comercialización 
 
-    .row.justify-content-center.align-items-center.mb-4.mb-lg-5.z-2
-      .col-lg-9
-        p Las oportunidades de mercado corresponden a situaciones favorables que pueden ser aprovechadas por una organización para incrementar sus ventas, ampliar su participación de mercado o desarrollar nuevas líneas de negocio. Su identificación constituye una actividad fundamental dentro de los procesos de planeación comercial y estratégica. 
-        .bg-terciario-t5.p-4.rounded-4.mb-4.mb-lg-0.py-3
-          p.mb-0 Las oportunidades pueden surgir como resultado de cambios en las preferencias de los consumidores, avances tecnológicos, nuevas tendencias de mercado, modificaciones regulatorias o necesidades insatisfechas detectadas en determinados segmentos de clientes.
+    p Las estrategias de venta y comercialización orientan la forma en que una organización utiliza sus canales para facilitar el acceso de los clientes a sus productos o servicios y alcanzar sus objetivos comerciales. Su selección requiere considerar las características de la oferta, el mercado objetivo, el comportamiento de los consumidores y el nivel de cobertura que se pretende alcanzar.
+    p.mb-4 De acuerdo con el nivel de cobertura del mercado, pueden aplicarse las siguientes estrategias: 
+
+    .row.justify-content-center.mb-5
+      .col-sm-9.col-lg-6.col-xl-4.mb-4
+        .crd_hover_txt(data-aos="flip-left").tarjeta
+          .crd_hover_txt--img
+            figure
+              img(src="@/assets/curso/tema3/6.png", alt="alt")
+          .crd_hover_txt--body.p-4
+            h4.mb-3 Distribución intensiva 
+            p.mb-0 Busca que los productos estén disponibles en la mayor cantidad posible de puntos de venta para facilitar su acceso a un amplio número de consumidores. Se utiliza principalmente en productos de consumo frecuente, como alimentos, bebidas, artículos de aseo y otros bienes de uso cotidiano. 
+    
+      .col-sm-9.col-lg-6.col-xl-4.mb-4
+        .crd_hover_txt(data-aos="flip-left").tarjeta
+          .crd_hover_txt--img
+            figure
+              img(src="@/assets/curso/tema3/7.png", alt="alt")
+          .crd_hover_txt--body.p-4
+            h4.mb-3 Distribución selectiva 
+            p.mb-0 Consiste en comercializar los productos mediante un número limitado de intermediarios seleccionados de acuerdo con criterios definidos por la organización. Permite mantener mayor control sobre aspectos como la atención, la imagen de la marca y la experiencia ofrecida al cliente. 
+    
+      .col-sm-9.col-lg-6.col-xl-4.mb-4.mb-xl-0
+        .crd_hover_txt(data-aos="flip-left").tarjeta
+          .crd_hover_txt--img
+            figure
+              img(src="@/assets/curso/tema3/8.png", alt="alt")
+          .crd_hover_txt--body.p-4
+            h4.mb-3 Distribución exclusiva 
+            p.mb-0 Limita la comercialización a uno o pocos distribuidores autorizados en un mercado o zona determinada. Permite ejercer mayor control sobre la distribución y suele emplearse en productos especializados, de alta gama o que requieren condiciones particulares de comercialización. 
+
+    .titulo-con-imagen.mb-5.z-2(data-aos="fade-right")
+      .titulo-con-imagen__fondo
+        img.titulo-con-imagen__imagen(src="@/assets/curso/common/icon-title.png")
+        h3.titulo-con-imagen__texto Comercialización omnicanal 
+
+    .row.justify-content-center.align-items-center.mb-4
       .col-sm-6.col-lg-3
         figure
-          img(data-aos="fade-down-right", src="@/assets/curso/tema3/6.png", alt="")
-    
-    TabsB.color-secundario.mb-4.z-2
-      .py-4.py-md-5.px-4(titulo="Identificación de oportunidades" :icono="require_src('@/assets/curso/tema3/7.png')")
-        .row.align-items-center.justify-content-center
-          .col-sm-6.col-lg-3
-            figure
-              img.mb-4.mb-lg-0(src='@/assets/curso/tema3/10.png', alt='')
-          .col-lg-9
-            p La curva de valor es una representación gráfica utilizada para comparar los atributos ofrecidos por una organización frente a los atributos proporcionados por sus competidores. Esta herramienta permite identificar fortalezas, oportunidades de mejora y aspectos diferenciadores que pueden generar mayor valor para los clientes.
-            p Mediante la curva de valor es posible determinar qué atributos deben fortalecerse, reducirse, eliminarse o crearse para construir propuestas más atractivas y competitivas. Su análisis favorece la innovación y contribuye a la identificación de nuevas oportunidades de mercado.
-            p.mb-0 Por ejemplo, una empresa de entrega de alimentos saludables puede diferenciarse mediante atributos como la personalización de menús, la rapidez en la entrega y el uso de empaques ecológicos, generando una oferta distinta a la de sus competidores.
-      
-      .py-4.py-md-5.px-4(titulo="Evaluación de oportunidades" :icono="require_src('@/assets/curso/tema3/8.png')")
-        .row.align-items-center.justify-content-center
-          .col-sm-6.col-lg-3
-            figure
-              img.mb-4.mb-lg-0(src='@/assets/curso/tema3/11.png', alt='')
-          .col-lg-9
-            p No todas las oportunidades identificadas resultan viables para una organización. Por esta razón, es necesario evaluar aspectos como el tamaño del mercado, la inversión requerida, la capacidad operativa, el nivel de competencia y la rentabilidad esperada. 
-            p.mb-0 Este análisis permite priorizar aquellas oportunidades que presentan mayores probabilidades de éxito y que se encuentran alineadas con los objetivos estratégicos de la empresa. 
+          img.mb-4.mb-lg-0(src="@/assets/curso/tema3/9.png", alt="" data-aos="zoom-in-down")
+      .col-lg-9
+        p La comercialización omnicanal integra diferentes canales físicos y digitales para ofrecer una experiencia articulada durante el proceso de compra. El cliente puede interactuar con la organización mediante puntos de venta físicos, sitios web, aplicaciones, redes sociales u otros medios, procurando continuidad entre los diferentes canales utilizados. 
+        p.mb-0 Esta estrategia permite responder a las distintas formas en que los consumidores buscan información, comparan alternativas, realizan compras y se comunican con las organizaciones. 
 
-      .py-4.py-md-5.px-4(titulo="Importancia de las oportunidades de mercado " :icono="require_src('@/assets/curso/tema3/9.png')")
-        .row.align-items-center.justify-content-center
-          .col-sm-6.col-lg-3
-            figure
-              img.mb-4.mb-lg-0(src='@/assets/curso/tema3/12.png', alt='')
-          .col-lg-9
-            p El aprovechamiento adecuado de las oportunidades de mercado contribuye al crecimiento empresarial, al fortalecimiento de la competitividad y a la generación de nuevas fuentes de ingresos. Además, permite a las organizaciones adaptarse a los cambios del entorno y responder de manera oportuna a las necesidades de los consumidores. 
-            p.mb-0 Las empresas que realizan un seguimiento constante de las dinámicas del mercado tienen mayores posibilidades de identificar oportunidades estratégicas y desarrollar acciones que les permitan consolidar ventajas competitivas sostenibles en el tiempo. 
-        
+    .bg-img.bg-img--contenido.p-4.rounded-4.overflow-hidden.mb-4
+      .row.justify-content-center.align-items-center
+        .col-lg-10
+          h5.mb-1 Ejemplo aplicado 
+          p.mb-0 Una empresa que comercializa alimentos de consumo frecuente puede optar por una estrategia de distribución intensiva para disponer sus productos en supermercados, tiendas y otros establecimientos. Paralelamente, puede utilizar canales digitales para informar sobre sus productos, recibir pedidos o facilitar la interacción con sus clientes. De esta manera, la estrategia de cobertura puede complementarse con diferentes canales de comercialización. 
+        .col-lg-2.d-none.d-lg-block
+          figure
+            img.imgw-150(src='@/assets/curso/tema5/9.png', alt='')
+
+    .row.justify-content-center.align-items-center
+      .col-lg-5
+        p Otro ejemplo destacado de comercialización omnicanal es Falabella, empresa que integra tiendas físicas, comercio electrónico, aplicaciones móviles y servicios de entrega para fortalecer la experiencia de compra de sus clientes. 
+        p.mb-lg-0 La selección de los canales y las estrategias de comercialización debe responder a las características de la oferta, los clientes y los objetivos de la organización. Su adecuada articulación contribuye a ampliar la cobertura del mercado, facilitar el acceso a los productos o servicios y fortalecer la gestión comercial. 
+      .col-lg-7
+        .tarjeta.bg-img.bg-img--primario.p-4
+          .row.justify-content-around.align-items-center
+            .col-3.col-lg-2.d-none.d-xl-block
+              img.imgw-140(src="@/assets/curso/tema1/19.png")
+            .col
+              .row.justify-content-between.align-items-center
+                .col.mb-3.mb-sm-0
+                  h5.mb-1 Canales de Distribución: cómo llegan los productos al cliente final
+                  p.mb-0 Se recomienda consultar el siguiente recurso audiovisual, en el cual se aborda la importancia del análisis de datos para apoyar la toma de decisiones y mejorar los resultados comerciales de una organización:
+                .col-sm-auto.d-flex.gap-2.flex-column
+                  a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=c1bTM7DjFRA" target="_blank")
+                    span Ir al recurso
+
+
+
+
+
+
+
+
 
 </template>
 
