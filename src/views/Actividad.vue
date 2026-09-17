@@ -19,10 +19,10 @@ export default {
   },
   data: () => ({
     cuestionario: {
-      tema: 'Fundamentos y aplicación del modelo Canvas en los negocios ',
+      tema: 'Fundamentos del control del plan comercial y mercadeo',
       titulo: 'Cuestionario',
       introduccion:
-        '<b> Objetivo:</b> verificar la apropiación de conocimiento de los fundamentos y aplicación del modelo Canvas en los negocios.',
+        '<b> Objetivo:</b> verificar la apropiación de conocimiento de los fundamentos del control del plan comercial y mercadeo.',
       barajarPreguntas: true,
       titulo_aprobado: '¡BUEN TRABAJO!',
       titulo_reprobado: 'VUELVA A INTENTARLO',
@@ -30,658 +30,672 @@ export default {
         {
           id: 1,
           texto:
-            '¿Cuál es el propósito principal del modelo de negocio Canvas?',
+            '¿Cuál es el propósito principal del proceso técnico de comercialización?',
           imagen: '@/assets/actividad/imagen1.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Elaborar estados financieros.',
+              texto: 'Elaborar estados financieros de la empresa.',
               esCorrecta: false,
             },
             {
               id: 'b',
               texto:
-                'Representar visualmente cómo una empresa crea y entrega valor.',
+                'Planificar y desarrollar actividades para llevar productos y servicios al mercado.',
               esCorrecta: true,
             },
             {
               id: 'c',
-              texto: 'Diseñar productos industriales.',
+              texto: 'Diseñar la estructura organizacional.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Controlar inventarios.',
+              texto: 'Gestionar procesos de contratación.',
               esCorrecta: false,
             },
           ],
           mensaje_correcto:
-            'El modelo de negocio Canvas permite representar de manera visual cómo una organización crea, entrega y captura valor para sus clientes.',
+            '¡Correcto! Has identificado que el proceso técnico de comercialización permite planificar y ejecutar actividades orientadas a llevar productos y servicios al mercado.',
           mensaje_incorrecto:
-            'Revise nuevamente el contenido del componente formativo.',
+            'Te recomendamos revisar nuevamente el contenido relacionado con el proceso técnico de comercialización.',
         },
         {
           id: 2,
           texto:
-            '¿Cuál de los siguientes componentes pertenece al modelo de negocio Canvas?',
+            '¿Cuál es la primera etapa del proceso técnico de comercialización?',
           imagen: '@/assets/actividad/imagen2.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Balance general.',
+              texto: 'Distribución y venta.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Organigrama.',
+              texto: 'Promoción comercial.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'Manual de funciones.',
-              esCorrecta: false,
+              texto:
+                'Identificación de necesidades y oportunidades de mercado.',
+              esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'Segmentos de clientes.',
-              esCorrecta: true,
+              texto: 'Seguimiento de indicadores.',
+              esCorrecta: false,
             },
           ],
           mensaje_correcto:
-            'Los segmentos de clientes son uno de los nueve componentes del modelo de negocio Canvas.',
+            '¡Correcto! Has reconocido que la identificación de necesidades y oportunidades de mercado constituye la primera etapa del proceso de comercialización.',
           mensaje_incorrecto:
-            'Revise nuevamente el contenido del componente formativo.',
+            'Te recomendamos revisar nuevamente las etapas del proceso técnico de comercialización.',
         },
         {
           id: 3,
-          texto: '¿Qué permite identificar el mapa de empatía?',
+          texto:
+            '¿Qué se establece durante la etapa de planificación comercial?',
           imagen: '@/assets/actividad/imagen3.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto:
-                'Las necesidades, percepciones y comportamientos del cliente.',
+              texto: 'Objetivos, metas y estrategias comerciales.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Los costos operativos.',
+              texto: 'Estados financieros y balances generales.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'Los estados financieros.',
+              texto: 'Manuales de funciones.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Los indicadores de producción.',
+              texto: 'Estructuras salariales.',
               esCorrecta: false,
             },
           ],
           mensaje_correcto:
-            'El mapa de empatía ayuda a comprender mejor las necesidades, expectativas y comportamientos del cliente.',
+            '¡Correcto! Has identificado que la planificación comercial permite definir objetivos, metas y estrategias para alcanzar resultados comerciales.',
           mensaje_incorrecto:
-            'Revise nuevamente el contenido del componente formativo.',
+            'Te recomendamos revisar nuevamente el contenido relacionado con la planificación comercial.',
         },
         {
           id: 4,
-          texto: '¿Cuál es la finalidad principal de la curva de valor?',
+          texto:
+            '¿Cuál es el objetivo principal de la promoción y comunicación comercial?',
           imagen: '@/assets/actividad/imagen4.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Determinar impuestos.',
+              texto: 'Controlar inventarios.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Calcular costos de producción.',
-              esCorrecta: false,
-            },
-            {
-              id: 'c',
-              texto: 'Comparar atributos frente a la competencia.',
+              texto:
+                'Informar y persuadir a los consumidores sobre los beneficios de la oferta.',
               esCorrecta: true,
             },
             {
-              id: 'd',
+              id: 'c',
               texto: 'Elaborar presupuestos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Gestionar proveedores.',
               esCorrecta: false,
             },
           ],
           mensaje_correcto:
-            'La curva de valor permite identificar factores diferenciadores frente a los competidores.',
+            '¡Correcto! Has reconocido que la promoción comercial busca informar y persuadir a los consumidores acerca de los productos o servicios.',
           mensaje_incorrecto:
-            'Revise nuevamente el contenido del componente formativo.',
+            'Te recomendamos revisar nuevamente el contenido relacionado con la promoción y comunicación comercial.',
         },
         {
           id: 5,
-          texto: '¿Qué representa la propuesta de valor dentro de un negocio?',
+          texto: '¿Qué es una objeción dentro del proceso de ventas?',
           imagen: '@/assets/actividad/imagen5.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'El conjunto de beneficios ofrecidos al cliente.',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'Los gastos operativos.',
+              texto: 'Una estrategia de distribución.',
               esCorrecta: false,
             },
             {
+              id: 'b',
+              texto:
+                'Una inquietud o duda manifestada por el cliente durante la negociación.',
+              esCorrecta: true,
+            },
+            {
               id: 'c',
-              texto: 'La estructura organizacional.',
+              texto: 'Un indicador comercial.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'El sistema contable.',
+              texto: 'Un canal de venta.',
               esCorrecta: false,
             },
           ],
           mensaje_correcto:
-            'La propuesta de valor expresa los beneficios que recibe el cliente al adquirir un producto o servicio.',
+            '¡Correcto! Has identificado que una objeción corresponde a una inquietud o preocupación expresada por el cliente durante el proceso de compra.',
           mensaje_incorrecto:
-            'Revise nuevamente el contenido del componente formativo.',
+            'Te recomendamos revisar nuevamente el contenido relacionado con las objeciones en ventas.',
         },
         {
           id: 6,
           texto:
-            '¿Qué herramienta permite identificar fortalezas, debilidades, oportunidades y amenazas?',
+            '¿Cuál de las siguientes técnicas facilita comprender mejor las inquietudes del cliente?',
           imagen: '@/assets/actividad/imagen1.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'PEST.',
-              esCorrecta: false,
-            },
-            {
-              id: 'b',
-              texto: 'DOFA.',
+              texto: 'Escucha activa.',
               esCorrecta: true,
             },
             {
+              id: 'b',
+              texto: 'Distribución exclusiva.',
+              esCorrecta: false,
+            },
+            {
               id: 'c',
-              texto: 'Organigrama.',
+              texto: 'Benchmarking.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Diagrama de flujo.',
+              texto: 'Segmentación de mercado.',
               esCorrecta: false,
             },
           ],
           mensaje_correcto:
-            'La matriz DOFA facilita el análisis interno y externo de una organización.',
+            '¡Correcto! Has reconocido que la escucha activa permite comprender las necesidades y preocupaciones expresadas por el cliente.',
           mensaje_incorrecto:
-            'Revise nuevamente el contenido del componente formativo.',
+            'Te recomendamos revisar nuevamente las técnicas para el manejo de objeciones.',
         },
         {
           id: 7,
-          texto: '¿Qué aspecto analiza principalmente la herramienta PEST?',
+          texto: '¿Qué busca la técnica de argumentación basada en beneficios?',
           imagen: '@/assets/actividad/imagen2.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Factores políticos, económicos, sociales y tecnológicos.',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'Estados financieros.',
+              texto: 'Destacar únicamente las características del producto.',
               esCorrecta: false,
             },
             {
+              id: 'b',
+              texto: 'Resaltar los beneficios que obtendrá el cliente.',
+              esCorrecta: true,
+            },
+            {
               id: 'c',
-              texto: 'Procesos operativos.',
+              texto: 'Incrementar los costos de venta.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Inventarios.',
+              texto: 'Sustituir el proceso de negociación.',
               esCorrecta: false,
             },
           ],
           mensaje_correcto:
-            'El análisis PEST estudia variables externas que pueden afectar a la organización.',
+            '¡Correcto! Has identificado que esta técnica busca destacar los beneficios que el cliente obtiene con la adquisición del producto o servicio.',
           mensaje_incorrecto:
-            'Revise nuevamente el contenido del componente formativo.',
+            'Te recomendamos revisar nuevamente el contenido relacionado con el manejo de objeciones.',
         },
         {
           id: 8,
-          texto: '¿Cuál es el objetivo principal del Benchmark?',
+          texto: '¿Qué favorece un cierre de ventas efectivo?',
           imagen: '@/assets/actividad/imagen3.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Reducir ventas.',
+              texto: 'Presionar constantemente al cliente.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Elaborar contratos.',
+              texto: 'Ignorar las objeciones presentadas.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'Comparar buenas prácticas empresariales.',
+              texto: 'Resolver las inquietudes y generar confianza.',
               esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'Gestionar nómina.',
+              texto: 'Incrementar el precio del producto.',
               esCorrecta: false,
             },
           ],
           mensaje_correcto:
-            'El Benchmark permite comparar procesos y buenas prácticas para identificar oportunidades de mejora.',
+            '¡Correcto! Has reconocido que un cierre de ventas efectivo se logra al resolver objeciones y fortalecer la confianza del cliente.',
           mensaje_incorrecto:
-            'Revise nuevamente el contenido del componente formativo.',
+            'Te recomendamos revisar nuevamente el contenido relacionado con el cierre de ventas.',
         },
         {
           id: 9,
-          texto: '¿Qué es la segmentación de mercado?',
+          texto: '¿Cuál es la función principal de un canal de distribución?',
           imagen: '@/assets/actividad/imagen4.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto:
-                'Dividir el mercado en grupos con características similares.',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'Clasificar proveedores.',
+              texto: 'Diseñar productos.',
               esCorrecta: false,
             },
             {
+              id: 'b',
+              texto:
+                'Llevar los productos o servicios desde la empresa hasta el cliente.',
+              esCorrecta: true,
+            },
+            {
               id: 'c',
-              texto: 'Organizar inventarios.',
+              texto: 'Elaborar estados financieros.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Elaborar presupuestos.',
+              texto: 'Contratar personal.',
               esCorrecta: false,
             },
           ],
           mensaje_correcto:
-            'La segmentación permite identificar grupos de clientes con necesidades y características comunes.',
+            '¡Correcto! Has identificado que los canales de distribución permiten que los productos lleguen al consumidor final.',
           mensaje_incorrecto:
-            'Revise nuevamente el contenido del componente formativo.',
+            'Te recomendamos revisar nuevamente el contenido relacionado con los canales de distribución y venta.',
         },
         {
           id: 10,
-          texto: '¿Qué se entiende por mercado objetivo?',
+          texto: '¿Qué caracteriza la estrategia de distribución intensiva?',
           imagen: '@/assets/actividad/imagen5.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'El conjunto de proveedores.',
+              texto: 'Comercializar mediante un único distribuidor autorizado.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'El grupo de clientes al que se dirige la empresa.',
-              esCorrecta: true,
-            },
-            {
-              id: 'c',
-              texto: 'Los competidores directos.',
+              texto:
+                'Limitar la presencia del producto a pocos establecimientos.',
               esCorrecta: false,
             },
             {
+              id: 'c',
+              texto:
+                'Disponibilizar el producto en la mayor cantidad posible de puntos de venta.',
+              esCorrecta: true,
+            },
+            {
               id: 'd',
-              texto: 'Los accionistas de la empresa.',
+              texto: 'Vender exclusivamente por medios digitales.',
               esCorrecta: false,
             },
           ],
           mensaje_correcto:
-            'El mercado objetivo corresponde al grupo de consumidores que la organización desea atender mediante su propuesta de valor.',
+            '¡Correcto! Has reconocido que la distribución intensiva busca lograr la mayor cobertura posible del mercado.',
           mensaje_incorrecto:
-            'Revise nuevamente el contenido del componente formativo.',
+            'Te recomendamos revisar nuevamente el contenido relacionado con las estrategias de distribución.',
         },
         {
           id: 11,
-          texto: '¿Qué busca principalmente el posicionamiento de mercado?',
+          texto: '¿Qué caracteriza la distribución selectiva?',
           imagen: '@/assets/actividad/imagen1.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Reducir costos operativos.',
+              texto: 'Utilizar todos los puntos de venta disponibles.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Incrementar inventarios.',
-              esCorrecta: false,
-            },
-            {
-              id: 'c',
               texto:
-                'Ocupar un lugar diferenciador en la mente del consumidor.',
+                'Comercializar mediante intermediarios previamente seleccionados.',
               esCorrecta: true,
             },
             {
+              id: 'c',
+              texto: 'Eliminar los canales de distribución.',
+              esCorrecta: false,
+            },
+            {
               id: 'd',
-              texto: 'Contratar más personal.',
+              texto: 'Vender únicamente por redes sociales.',
               esCorrecta: false,
             },
           ],
           mensaje_correcto:
-            'El posicionamiento busca que la marca, producto o servicio ocupe un lugar distintivo en la mente de los consumidores.',
+            '¡Correcto! Has identificado que la distribución selectiva utiliza intermediarios seleccionados para comercializar los productos.',
           mensaje_incorrecto:
-            'Revise nuevamente el contenido del componente formativo.',
+            'Te recomendamos revisar nuevamente el contenido relacionado con los tipos de canales de distribución.',
         },
         {
           id: 12,
-          texto: '¿Qué aspecto caracteriza la diferenciación empresarial?',
+          texto:
+            '¿Cuál es una característica de la comercialización omnicanal?',
           imagen: '@/assets/actividad/imagen2.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
               texto:
-                'Desarrollar elementos que hagan única la oferta frente a la competencia.',
+                'Integrar canales físicos y digitales para atender al cliente.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Reducir la calidad de los productos.',
+              texto: 'Comercializar únicamente en establecimientos físicos.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'Eliminar canales de distribución.',
+              texto: 'Eliminar el comercio electrónico.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Incrementar los costos operativos.',
+              texto: 'Reducir los puntos de contacto con el consumidor.',
               esCorrecta: false,
             },
           ],
           mensaje_correcto:
-            'La diferenciación permite destacar la oferta empresarial mediante atributos valorados por los clientes.',
+            '¡Correcto! Has reconocido que la comercialización omnicanal integra diferentes canales para mejorar la experiencia del cliente.',
           mensaje_incorrecto:
-            'Revise nuevamente el contenido del componente formativo.',
+            'Te recomendamos revisar nuevamente el contenido relacionado con las estrategias de venta y comercialización.',
         },
         {
           id: 13,
-          texto: '¿Cuál es la función principal del marketing estratégico?',
+          texto: '¿Qué es un indicador dentro de la gestión comercial?',
           imagen: '@/assets/actividad/imagen3.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Ejecutar promociones diarias.',
+              texto: 'Un documento contable obligatorio.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Analizar el mercado y definir acciones de largo plazo.',
+              texto:
+                'Una medida utilizada para evaluar resultados y desempeño.',
               esCorrecta: true,
             },
             {
               id: 'c',
-              texto: 'Controlar inventarios.',
+              texto: 'Un canal de distribución.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Gestionar pagos a proveedores.',
+              texto: 'Un plan de mercadeo.',
               esCorrecta: false,
             },
           ],
           mensaje_correcto:
-            'El marketing estratégico se orienta al análisis del mercado y a la definición de estrategias empresariales.',
+            '¡Correcto! Has identificado que los indicadores permiten medir y evaluar el desempeño de las actividades comerciales.',
           mensaje_incorrecto:
-            'Revise nuevamente el contenido del componente formativo.',
+            'Te recomendamos revisar nuevamente el contenido relacionado con los indicadores de gestión comercial.',
         },
         {
           id: 14,
-          texto: '¿Qué caracteriza al marketing operativo?',
+          texto:
+            '¿Cuál es la finalidad principal del indicador de cumplimiento de ventas?',
           imagen: '@/assets/actividad/imagen4.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Analizar tendencias económicas globales.',
-              esCorrecta: false,
+              texto:
+                'Medir el porcentaje de logro frente a una meta establecida.',
+              esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Formular la misión empresarial.',
+              texto: 'Evaluar el inventario disponible.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'Diseñar estructuras organizacionales.',
+              texto: 'Analizar la estructura organizacional.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Ejecutar acciones comerciales y de mercadeo.',
-              esCorrecta: true,
+              texto: 'Determinar los costos de producción.',
+              esCorrecta: false,
             },
           ],
           mensaje_correcto:
-            'El marketing operativo se enfoca en la ejecución de las acciones definidas en la estrategia comercial.',
+            '¡Correcto! Has reconocido que este indicador permite medir el nivel de cumplimiento de las metas comerciales.',
           mensaje_incorrecto:
-            'Revise nuevamente el contenido del componente formativo.',
+            'Te recomendamos revisar nuevamente el contenido relacionado con los indicadores de ventas.',
         },
         {
           id: 15,
-          texto: '¿Cuáles son los elementos tradicionales del marketing mix?',
+          texto: '¿Qué mide la tasa de conversión?',
           imagen: '@/assets/actividad/imagen5.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Producto, precio, plaza y promoción.',
-              esCorrecta: true,
+              texto: 'La satisfacción de los proveedores.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Planeación, organización, dirección y control.',
+              texto: 'El crecimiento de la organización.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'Calidad, innovación, servicio y logística.',
-              esCorrecta: false,
+              texto:
+                'La relación entre oportunidades comerciales y ventas realizadas.',
+              esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'Producción, ventas, finanzas y talento humano.',
+              texto: 'El nivel de inventario disponible.',
               esCorrecta: false,
             },
           ],
           mensaje_correcto:
-            'El marketing mix está compuesto por producto, precio, plaza y promoción.',
+            '¡Correcto! Has identificado que la tasa de conversión permite evaluar la efectividad de las estrategias comerciales.',
           mensaje_incorrecto:
-            'Revise nuevamente el contenido del componente formativo.',
+            'Te recomendamos revisar nuevamente el contenido relacionado con los indicadores de gestión comercial.',
         },
         {
           id: 16,
           texto:
-            '¿Cuál es una estrategia orientada al crecimiento empresarial?',
+            '¿Cuál es el propósito del seguimiento y control del plan comercial?',
           imagen: '@/assets/actividad/imagen1.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Reducir la cobertura del mercado.',
-              esCorrecta: false,
+              texto:
+                'Supervisar el cumplimiento de objetivos y aplicar acciones de mejora.',
+              esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Eliminar líneas de producto exitosas.',
+              texto: 'Sustituir los procesos de ventas.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'Desarrollar nuevos productos y mercados.',
-              esCorrecta: true,
+              texto: 'Eliminar indicadores de gestión.',
+              esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Disminuir la atención al cliente.',
+              texto: 'Incrementar la estructura organizacional.',
               esCorrecta: false,
             },
           ],
           mensaje_correcto:
-            'El desarrollo de nuevos productos y mercados favorece el crecimiento y la competitividad empresarial.',
+            '¡Correcto! Has reconocido que el seguimiento permite evaluar resultados y realizar ajustes cuando sea necesario.',
           mensaje_incorrecto:
-            'Revise nuevamente el contenido del componente formativo.',
+            'Te recomendamos revisar nuevamente el contenido relacionado con el seguimiento y control del plan comercial.',
         },
         {
           id: 17,
-          texto: '¿Qué busca el marketing experiencial?',
+          texto: '¿Por qué son importantes los datos en la gestión comercial?',
           imagen: '@/assets/actividad/imagen2.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Crear experiencias memorables para el cliente.',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'Reducir la interacción con los consumidores.',
+              texto: 'Porque sustituyen la atención al cliente.',
               esCorrecta: false,
             },
             {
+              id: 'b',
+              texto:
+                'Porque permiten comprender el mercado y apoyar la toma de decisiones.',
+              esCorrecta: true,
+            },
+            {
               id: 'c',
-              texto: 'Eliminar promociones comerciales.',
+              texto: 'Porque eliminan la necesidad de planificar.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Limitar los canales de comunicación.',
+              texto: 'Porque reemplazan los procesos comerciales.',
               esCorrecta: false,
             },
           ],
           mensaje_correcto:
-            'El marketing experiencial busca generar emociones y experiencias positivas para fortalecer la relación con el cliente.',
+            '¡Correcto! Has identificado que los datos facilitan el análisis del mercado y la toma de decisiones informadas.',
           mensaje_incorrecto:
-            'Revise nuevamente el contenido del componente formativo.',
+            'Te recomendamos revisar nuevamente el contenido relacionado con la importancia de los datos en la gestión comercial.',
         },
         {
           id: 18,
-          texto: '¿Cuál es el propósito principal del merchandising?',
+          texto:
+            '¿Cuál de las siguientes herramientas puede utilizarse para analizar datos comerciales?',
           imagen: '@/assets/actividad/imagen3.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Disminuir la exhibición de productos.',
+              texto: 'Organigrama empresarial.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Mejorar la presentación y visibilidad de los productos.',
-              esCorrecta: true,
-            },
-            {
-              id: 'c',
-              texto: 'Reducir la circulación de clientes.',
+              texto: 'Manual de funciones.',
               esCorrecta: false,
             },
             {
+              id: 'c',
+              texto: 'Power BI.',
+              esCorrecta: true,
+            },
+            {
               id: 'd',
-              texto: 'Sustituir las actividades de ventas.',
+              texto: 'Reglamento interno de trabajo.',
               esCorrecta: false,
             },
           ],
           mensaje_correcto:
-            'El merchandising utiliza técnicas que favorecen la exhibición y promoción de productos en el punto de venta.',
+            '¡Correcto! Has reconocido que Power BI es una herramienta utilizada para el análisis y visualización de datos comerciales.',
           mensaje_incorrecto:
-            'Revise nuevamente el contenido del componente formativo.',
+            'Te recomendamos revisar nuevamente el contenido relacionado con el software para el análisis de datos.',
         },
         {
           id: 19,
           texto:
-            '¿Qué función cumple la señalética dentro de un espacio comercial?',
+            '¿Qué permiten los sistemas CRM dentro de la gestión comercial?',
           imagen: '@/assets/actividad/imagen4.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Incrementar costos administrativos.',
+              texto: 'Gestionar inventarios exclusivamente.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Reemplazar la atención al cliente.',
-              esCorrecta: false,
-            },
-            {
-              id: 'c',
               texto:
-                'Orientar e informar a los consumidores dentro del establecimiento.',
+                'Almacenar información de clientes y realizar seguimiento comercial.',
               esCorrecta: true,
             },
             {
+              id: 'c',
+              texto: 'Elaborar nóminas empresariales.',
+              esCorrecta: false,
+            },
+            {
               id: 'd',
-              texto: 'Controlar inventarios.',
+              texto: 'Diseñar procesos de producción.',
               esCorrecta: false,
             },
           ],
           mensaje_correcto:
-            'La señalética facilita la orientación, ubicación e información de los clientes dentro del punto de venta.',
+            '¡Correcto! Has identificado que los sistemas CRM facilitan la gestión de clientes y el seguimiento de oportunidades de venta.',
           mensaje_incorrecto:
-            'Revise nuevamente el contenido del componente formativo.',
+            'Te recomendamos revisar nuevamente el contenido relacionado con las herramientas tecnológicas para la gestión comercial.',
         },
         {
           id: 20,
-          texto: '¿Cuál es uno de los beneficios de la iluminación comercial?',
+          texto:
+            '¿Cuál es el principal propósito de interpretar los resultados obtenidos mediante el análisis de datos?',
           imagen: '@/assets/actividad/imagen5.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Reducir la percepción de los productos.',
+              texto: 'Incrementar la complejidad de los informes.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto:
-                'Incrementar el consumo energético sin propósito comercial.',
+              texto: 'Sustituir las estrategias comerciales existentes.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'Sustituir la exhibición de productos.',
-              esCorrecta: false,
+              texto: 'Identificar tendencias y apoyar la toma de decisiones.',
+              esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'Destacar productos y mejorar la experiencia de compra.',
-              esCorrecta: true,
+              texto: 'Eliminar los indicadores de gestión.',
+              esCorrecta: false,
             },
           ],
           mensaje_correcto:
-            'La iluminación ayuda a resaltar productos, crear ambientes atractivos y fortalecer la experiencia del cliente.',
+            '¡Correcto! Has reconocido que la interpretación de resultados permite identificar tendencias y tomar decisiones fundamentadas en información objetiva.',
           mensaje_incorrecto:
-            'Revise nuevamente el contenido del componente formativo.',
+            'Te recomendamos revisar nuevamente el contenido relacionado con la interpretación de resultados y la toma de decisiones.',
         },
       ],
       mensaje_final_aprobado:
-        '¡Excelente! ha superado la actividad y demuestra sólidos conocimientos sobre el componente formativo.',
+        '¡Excelente! Ha superado la actividad y demuestra sólidos conocimientos sobre el componente formativo.',
       mensaje_final_reprobado:
         'No ha superado la actividad. Le recomendamos volver a revisar el componente formativo e intentar nuevamente la actividad didáctica.',
     },
