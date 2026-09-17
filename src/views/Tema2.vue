@@ -5,152 +5,204 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 2
-      h1 Propuesta de valor y ventaja competitiva 
+      h1 Gestión de objeciones y cierre de ventas 
 
     .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-5
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require_src('@/assets/curso/tema2/1.png')})`}"
       )
       .bloque-texto-g__texto.p-4
-        p.mb-0 La propuesta de valor y la ventaja competitiva constituyen elementos fundamentales dentro de la planeación comercial y de mercadeo. Su análisis permite identificar las necesidades de los clientes, comprender los factores que influyen en las decisiones de compra y diseñar ofertas diferenciadas que generen valor para el mercado objetivo. Estas herramientas contribuyen al fortalecimiento del modelo de negocio y al posicionamiento de la organización frente a la competencia. 
+        p.mb-0 La gestión de objeciones y el cierre de ventas constituyen etapas fundamentales dentro del proceso comercial, ya que permiten atender las inquietudes de los clientes y facilitar la toma de decisiones de compra. Un adecuado manejo de las objeciones contribuye a fortalecer la confianza del consumidor, mejorar la comunicación comercial e incrementar las probabilidades de concretar una venta de manera satisfactoria para ambas partes. 
 
     separador
     #t_2_1.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-      h2 2.1	Mapa de empatía 
+      h2 2.1	Concepto y tipos de objeciones 
 
     .row.justify-content-center.align-items-center.mb-4.mb-lg-5.z-2
       .col-lg-9
-        p El mapa de empatía es una herramienta que permite comprender de manera más profunda las necesidades, comportamientos, motivaciones y expectativas de los clientes. Su propósito consiste en analizar la realidad del consumidor desde su propia perspectiva, facilitando el diseño de productos, servicios y estrategias comerciales más alineados con sus requerimientos. 
-        .bg-terciario-t5.p-4.rounded-4.py-3.mb-4.mb-lg-0
-          p.mb-0 Esta herramienta ayuda a las organizaciones a identificar qué piensa, siente, observa, escucha, dice y hace un cliente, así como los esfuerzos que realiza para resolver sus necesidades y los beneficios que espera obtener. La información obtenida contribuye a mejorar la comprensión del mercado objetivo y fortalece la construcción de propuestas de valor diferenciadas. 
+        p Las objeciones son manifestaciones de duda, inquietud o resistencia expresadas por un cliente durante el proceso de venta. Pueden surgir cuando requiere mayor información, no percibe suficiente valor en la oferta o necesita aclarar aspectos relacionados con el producto, el servicio o las condiciones comerciales.
+        .bg-terciario-t5.p-4.rounded-4.overflow-hidden.py-3.mb-4.mb-lg-0
+          p Una objeción no necesariamente representa un rechazo definitivo; también puede constituir una oportunidad para identificar las necesidades, expectativas o inquietudes del cliente y proporcionar información que facilite su decisión de compra. 
+          p.mb-0 Las objeciones pueden clasificarse de acuerdo con el aspecto de la oferta que genera inquietud en el cliente: 
       .col-sm-6.col-lg-3
         figure
           img(data-aos="fade-down-right", src="@/assets/curso/tema2/2.png", alt="")
-
-    p.mb-4 En este contexto, el mapa de empatía se estructura en diferentes componentes que permiten analizar al consumidor desde distintas perspectivas, como se presenta a continuación: 
-
-    .row.justify-content-center.align-items-center.mb-4.mb-lg-5
-      .col-sm-6.col-lg-3
+    
+    .row.justify-content-center.align-items-center.mb-4
+      .col-sm-4.col-lg-3.col-xl-2.d-none.d-lg-block
         figure
           img.mb-4.mb-lg-0(src="@/assets/curso/tema2/3.png", alt="" data-aos="zoom-in-down")
-      .col-lg-9
-        AcordionA(tipo="b" clase-tarjeta="tarjeta bg-primario")
-          div(titulo="¿Qué piensa y siente?")
-            .me-lg-5
-              p Identifica preocupaciones, aspiraciones, intereses y emociones del cliente frente a una necesidad. 
-              p.mb-0 #[strong Ejemplo:] un profesional busca alimentación saludable que se adapte a su falta de tiempo y mejore su bienestar. 
-          div(titulo="¿Qué ve?")
-            .me-lg-5
-              p Analiza productos, servicios, tendencias, publicidad y comportamientos observados que influyen en las decisiones de compra. 
-              p.mb-0 #[strong Ejemplo:] observa en redes sociales opciones de alimentación saludable y recomendaciones de otros consumidores. 
-          div(titulo="¿Qué escucha?")
-            .me-lg-5
-              p Identifica opiniones, recomendaciones e influencias de familiares, amigos, compañeros, medios y líderes de opinión que pueden afectar sus decisiones. 
-              p.mb-0 #[strong Ejemplo:] recibe recomendaciones de amigos sobre restaurantes con opciones saludables. 
-          div(titulo="¿Qué dice y hace?")
-            .me-lg-5
-              p Analiza las opiniones expresadas y los comportamientos observables para identificar hábitos y patrones relevantes para la empresa. 
-              p.mb-0 #[strong Ejemplo:] publica en redes sus preferencias alimentarias y consulta información antes de comprar. 
-          div(titulo="Esfuerzos y beneficios")
-            .me-lg-5
-              p Los esfuerzos son obstáculos o problemas que enfrenta el cliente; los beneficios son resultados positivos que espera obtener. 
-              p.mb-0 #[strong Ejemplo:] busca ahorrar tiempo y obtener alimentos saludables y prácticos. 
-    
-    p.mb-0 La identificación de estos elementos permite diseñar propuestas de valor orientadas a reducir dificultades y aumentar los beneficios percibidos por el consumidor. 
+      .col-lg-9.col-xl-8
+        SlyderF(columnas="col-sm-6")
+          .tarjeta.bg-card-verde.bg-card-verde--ancha.p-4.pt-5
+            .row.justify-content-center.mb-3
+              .col-5
+                img(src='@/assets/curso/tema2/14.svg' alt='')
+            p.text-center #[strong Objeciones relacionadas con el precio]. Se presentan cuando el cliente considera que el valor del producto o servicio supera sus expectativas o presupuesto disponible. 
+          .tarjeta.bg-card-verde.bg-card-verde--ancha.p-4.pt-5
+            .row.justify-content-center.mb-3
+              .col-5
+                img(src='@/assets/curso/tema2/15.svg' alt='')
+            p.text-center #[strong Objeciones relacionadas con la necesidad]. Surgen cuando el cliente no identifica claramente la utilidad o los beneficios que puede obtener con la adquisición del producto o servicio. 
+          .tarjeta.bg-card-verde.bg-card-verde--ancha.p-4.pt-5
+            .row.justify-content-center.mb-3
+              .col-5
+                img(src='@/assets/curso/tema2/16.svg' alt='')
+            p.text-center #[strong Objeciones relacionadas con el producto o servicio]. Comprenden dudas sobre aspectos como la calidad, las características, el funcionamiento, la garantía o el desempeño de la oferta. 
+          .tarjeta.bg-card-verde.bg-card-verde--ancha.p-4.pt-5
+            .row.justify-content-center.mb-3
+              .col-5
+                img(src='@/assets/curso/tema2/17.svg' alt='')
+            p.text-center #[strong Objeciones relacionadas con la confianza]. Se relacionan con la necesidad de obtener mayor seguridad sobre la empresa, la marca, el asesor comercial o las condiciones de la negociación. 
+          .tarjeta.bg-card-verde.bg-card-verde--ancha.p-4.pt-5
+            .row.justify-content-center.mb-3
+              .col-5
+                img(src='@/assets/curso/tema2/18.svg' alt='')
+            p.text-center #[strong Objeciones relacionadas con el tiempo]. Se manifiestan cuando el cliente requiere un plazo adicional para evaluar la oferta o decide posponer la compra. 
+   
+    .bg-img.bg-img--contenido.p-4.rounded-4.overflow-hidden.mb-4
+      p.mb-0 #[strong Ejemplo]: una persona interesada en adquirir un vehículo manifiesta que su precio supera el presupuesto disponible. En este caso, se presenta una objeción relacionada con el precio, que debe ser comprendida antes de ofrecer alternativas o argumentos acordes con las necesidades del cliente. 
+
+    p Empresas como Toyota, Samsung y Claro Colombia capacitan permanentemente a sus equipos comerciales para gestionar objeciones relacionadas con precio, características técnicas, financiación y condiciones de servicio. 
+    p.mb-0 Identificar el tipo de objeción permite comprender con mayor precisión la inquietud del cliente y orientar una respuesta acorde con sus necesidades. Este reconocimiento constituye el punto de partida para aplicar técnicas de comunicación y argumentación que faciliten el manejo adecuado de la objeción dentro del proceso de venta. 
 
     separador
     #t_2_2.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-      h2 2.2	Ventaja competitiva 
+      h2 2.2	Técnicas para el manejo de objeciones 
 
-    .row.justify-content-center.align-items-center.mb-4.mb-lg-5.z-2
-      .col-lg-9.mb-4.mb-lg-0
-        .titulo-sexto.color-acento-contenido.mb-4
-          h5 Figura 3.
-          span Curva de valor y comparación competitiva
-        img.mb-2.d-sm-none(data-aos="fade-up", src="@/assets/curso/tema2/4-mob.png", alt="Curva de valor que compara un restaurante con un competidor según precio, calidad, ambiente, diseño, localización y horario.")
-        img.mb-2.d-none.d-sm-block(data-aos="fade-up", src="@/assets/curso/tema2/4.png", alt="Curva de valor que compara un restaurante con un competidor según precio, calidad, ambiente, diseño, localización y horario.")
-        figcaption Nota. De Plantilla para representar la curva de valor, por Gerardo Marote, 2019. Fuente original: Gerardo Marote
-      .col-lg-3
-        p.mb-0 La curva de valor y la propuesta de valor son herramientas complementarias que permiten identificar factores de diferenciación y diseñar ofertas comerciales que respondan de manera efectiva a las necesidades del mercado. Su aplicación facilita el desarrollo de ventajas competitivas y fortalece el posicionamiento empresarial. 
-
-    TabsB.color-secundario.mb-4.z-2
-      .py-4.py-md-5.px-4(titulo="Curva de valor" :icono="require_src('@/assets/curso/tema2/5.png')")
-        .row.align-items-center.justify-content-center
-          .col-sm-8.col-lg-4
-            figure
-              img.mb-4.mb-lg-0(src='@/assets/curso/tema2/7.png', alt='')
-          .col-lg-8
-            p La curva de valor es una representación gráfica utilizada para comparar los atributos ofrecidos por una organización frente a los atributos proporcionados por sus competidores. Esta herramienta permite identificar fortalezas, oportunidades de mejora y aspectos diferenciadores que pueden generar mayor valor para los clientes. 
-            p Mediante la curva de valor es posible determinar qué atributos deben fortalecerse, reducirse, eliminarse o crearse para construir propuestas más atractivas y competitivas. Su análisis favorece la innovación y contribuye a la identificación de nuevas oportunidades de mercado. 
-            p.mb-0 Por ejemplo, una empresa de entrega de alimentos saludables puede diferenciarse mediante atributos como la personalización de menús, la rapidez en la entrega y el uso de empaques ecológicos, generando una oferta distinta a la de sus competidores. 
-      
-      .py-4.py-md-5.px-4(titulo="Propuesta de valor" :icono="require_src('@/assets/curso/tema2/6.png')")
-        .row.align-items-center.justify-content-center
-          .col-sm-8.col-lg-4
-            figure
-              img.mb-4.mb-lg-0(src='@/assets/curso/tema2/11.png', alt='')
-          .col-lg-8
-            p La propuesta de valor corresponde al conjunto de beneficios que una organización ofrece para satisfacer las necesidades de sus clientes y resolver problemas específicos. Constituye la principal razón por la cual un consumidor elige una empresa en lugar de otra. 
-            p Una propuesta de valor efectiva debe ser clara, relevante y diferenciadora. Para su construcción es necesario comprender las expectativas del cliente, identificar sus necesidades y diseñar soluciones que generen beneficios tangibles. 
-            p Entre los elementos que pueden fortalecer una propuesta de valor se encuentran la calidad, la innovación, la comodidad, la personalización, el ahorro de tiempo, la reducción de costos y la mejora de la experiencia del cliente. 
-            p.mb-0 La adecuada construcción de una propuesta de valor contribuye al fortalecimiento de la relación con los consumidores y al incremento de la competitividad empresarial. 
-
-    .row.justify-content-center.align-items-center
-      .col-xl-10
-        .tarjeta.bg-img.bg-img--primario.p-4
-          .row.justify-content-around.align-items-center
-            .col-3.col-lg-2.d-none.d-lg-block
-              img.imgw-140(src="@/assets/curso/tema1/19.png")
-            .col
-              .row.justify-content-between.align-items-center
-                .col.mb-3.mb-sm-0
-                  h5.mb-1 Curva de valor 
-                  p.mb-0 Para fortalecer los conocimientos sobre la curva de valor y comprender su aplicación en el análisis de la propuesta de valor frente a la competencia, se recomienda consultar el siguiente video, en el que se presenta de manera práctica el uso de esta herramienta. 
-                .col-sm-auto.d-flex.gap-2.flex-column
-                  a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=ZhJCWiv4qGY" target="_blank")
-                    span Ir al recurso
-
-    separador
-    #t_2_3.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-      h2 2.3	Ventaja competitiva 
-
-    .bg-secundario-s5.mb-4.mb-lg-5(data-aos="fade-up")
+    .bg-botones-a5.mb-3(data-aos="fade-up")
       .row.justify-content-center.align-items-center
-        .col-lg-auto
-          figure
-            img(src='@/assets/curso/tema2/8.png', alt='')
         .col-lg
           .p-4
-            p.mb-0 La ventaja competitiva corresponde a la capacidad que tiene una organización para diferenciarse de sus competidores mediante atributos, recursos o estrategias que generan valor superior para los clientes. Esta ventaja permite alcanzar mejores resultados comerciales y fortalecer el posicionamiento en el mercado. 
+            p.mb-0 El manejo adecuado de las objeciones requiere habilidades de comunicación, escucha activa y conocimiento de los productos o servicios ofrecidos. Su propósito no consiste en confrontar al cliente, sino en comprender sus inquietudes, identificar la causa de la objeción y proporcionar información pertinente que contribuya a generar confianza y facilitar la toma de decisiones. 
+        .col-lg-auto
+          figure
+            img(src='@/assets/curso/tema2/4.png', alt='')
     
-    p Las ventajas competitivas pueden originarse en diferentes factores, tales como la innovación, la calidad, la tecnología, el servicio al cliente, la eficiencia operativa o el reconocimiento de marca. Su sostenibilidad depende de la capacidad de la organización para mantener y fortalecer aquellos elementos que la diferencian frente a otras empresas. 
-    p.mb-4.mb-lg-5 Para profundizar en la ventaja competitiva, se presentan sus principales tipos y la importancia que tiene para el fortalecimiento de la posición de la organización en el mercado. 
+    .row.justify-content-center.align-items-center.mb-4
+      .col-sm-6.col-lg-3.d-none.d-lg-block
+        figure
+          img.mb-4.mb-lg-0(src="@/assets/curso/tema2/5.png", alt="" data-aos="zoom-in-down")
+      .col-lg-9
+        p Para gestionar las objeciones durante el proceso de venta pueden aplicarse diferentes técnicas, de acuerdo con la situación planteada por el cliente y las características de la oferta. 
+        TabsA.color-secundario.custom-tabs--1.mb-4.mb-lg-0
+          .tarjeta.p-4.bg-contenido-a5.py-5(titulo="Escucha activa")
+            p.mb-0 Consiste en prestar atención a las inquietudes del cliente sin interrumpirlo, con el propósito de comprender su situación e identificar el origen de la objeción. Una escucha adecuada facilita la comunicación y permite orientar la respuesta de acuerdo con las necesidades expresadas.
+          .tarjeta.p-4.bg-contenido-a5.py-5(titulo="Aclaración de la objeción")
+            p.mb-0 Implica formular preguntas pertinentes cuando la inquietud se expresa de manera general o imprecisa. Su aplicación permite comprender con mayor claridad la preocupación del cliente antes de presentar una respuesta o alternativa.
+          .tarjeta.p-4.bg-contenido-a5.py-5(titulo="Argumentación basada en beneficios")
+            p.mb-0 Consiste en explicar cómo los beneficios del producto o servicio responden a las necesidades identificadas en el cliente, evitando limitar la argumentación a la descripción de sus características. De esta manera, se facilita la comprensión del valor de la oferta. 
+          .tarjeta.p-4.bg-contenido-a5.py-5(titulo="Evidencia o prueba social")
+            p.mb-0 Permite respaldar los argumentos mediante información verificable, como testimonios, casos de éxito, certificaciones o resultados. Estos elementos pueden contribuir a fortalecer la credibilidad de la oferta y generar mayor confianza durante la interacción comercial.
+          .tarjeta.p-4.bg-contenido-a5.py-5(titulo="Comparación de valor")
+            p.mb-0 Consiste en relacionar el costo del producto o servicio con los beneficios que puede obtener el cliente. Esta técnica resulta especialmente pertinente cuando la objeción se relaciona con el precio, ya que permite orientar la conversación hacia el valor generado por la oferta.
 
-    .p-4.bg-slider.rounded-4.mb-5
-      .tarjeta.tarjeta--blanca
-        SlyderA(tipo="a")
-          div.my-5.w-75.mx-auto
-            .row.justify-content-center.align-items-center
-              .col-lg-8
-                h5.mb-1 Tipos de ventaja competitiva
-                p.mb-0 #[strong Liderazgo en costos:] permite ofrecer productos o servicios a precios competitivos mediante una operación eficiente. 
-                p.mb-0 #[strong Diferenciación:] se basa en características únicas que incrementan el valor percibido por los clientes. 
-                p.mb-0 #[strong Especialización o enfoque:] concentra los esfuerzos en segmentos específicos del mercado para satisfacer necesidades particulares. 
-                p.mb-4.mb-lg-0 #[strong Ejemplo:] una empresa se diferencia mediante productos innovadores y dirige su oferta a un segmento específico del mercado.  
-              .col-sm-8.col-lg-4
-                img(src="@/assets/curso/tema2/9.png", alt="")
-          div.my-5.w-75.mx-auto
-            .row.justify-content-center.align-items-center
-              .col-lg-8
-                h5.mb-1 Importancia de la ventaja competitiva
-                p.mb-0 La ventaja competitiva fortalece el posicionamiento, las relaciones con los clientes, la rentabilidad y las oportunidades de crecimiento. También permite adaptarse a los cambios del entorno y mantener la relevancia frente a la competencia. 
-                p.mb-4.mb-lg-0 #[strong Ejemplo:] una empresa que ofrece productos diferenciados puede fortalecer su posicionamiento y aumentar su participación en el mercado. 
-              .col-sm-8.col-lg-4
-                img(src="@/assets/curso/tema2/10.png", alt="")
+    .bg-img.bg-img--contenido.p-4.rounded-4.overflow-hidden.mb-4
+      h5.mb-1 Ejemplo aplicado
+      p Un cliente interesado en contratar un servicio de capacitación empresarial manifiesta que su precio es elevado. Antes de responder, el asesor comercial indaga sobre las razones de su inquietud y las necesidades de la organización. A partir de esta información, explica cómo la capacitación puede contribuir al fortalecimiento de las competencias del personal y al mejoramiento de su desempeño. 
+      p.mb-0 De esta manera, el asesor no se limita a justificar el precio, sino que relaciona la inversión con los beneficios que puede generar el servicio, orientando la conversación hacia el valor de la oferta. 
 
-    .row.justify-content-center.mb-4
+    .row.justify-content-center.align-items-center
+      .col-sm-6.col-lg-3
+        figure
+          img.mb-4.mb-lg-0(src="@/assets/curso/tema2/6.png", alt="" data-aos="zoom-in-down")
+      .col-lg-9
+        p Empresas como SURA y Bancolombia implementan estrategias de asesoría personalizada, escucha activa y argumentación basada en beneficios para gestionar objeciones, fortalecer la confianza de sus clientes y mejorar la efectividad de sus procesos comerciales. 
+        p.mb-0 La selección de la técnica para manejar una objeción depende de la inquietud expresada por el cliente, sus necesidades y las características de la oferta. Su aplicación adecuada permite aclarar dudas, fortalecer la confianza y orientar la interacción comercial hacia posibles acuerdos que faciliten el avance hacia el cierre de la venta.  
+
+    separador
+
+    #t_2_3.titulo-segundo.color-acento-contenido(data-aos="flip-up")
+      h2 2.3	Compromiso y cierre de ventas 
+    
+    p El compromiso comercial se manifiesta cuando el cliente expresa disposición para avanzar en la decisión de compra, por ejemplo, al aceptar determinadas condiciones, seleccionar una alternativa o confirmar aspectos de la oferta. Estos acuerdos pueden facilitar el avance hacia el cierre de la venta. 
+
+    .row.justify-content-center.align-items-center.mb-4.mb-lg-5
+      .col-sm-2.col-lg-1.d-none.d-lg-block
+        figure
+          img.mb-4.mb-lg-0(src="@/assets/curso/tema2/7.png", alt="" data-aos="zoom-in-down")
+      .col-lg-11
+        p El cierre de ventas corresponde a la etapa del proceso comercial en la que el cliente acepta la propuesta y se concreta la transacción. Antes de avanzar hacia el cierre, es importante verificar que sus necesidades hayan sido comprendidas, que las objeciones hayan sido atendidas y que exista interés en la oferta presentada. 
+    
+    .row.justify-content-center.align-items-center.mb-4
+      .col-lg-9.mb-4.mb-lg-0
+        p Las principales etapas del proceso de comercialización son las siguientes:
+        LineaTiempoD.color-primario.mb-4.mb-lg-0
+          div(numero="1" titulo="Verificar las necesidades")
+            p.mb-0 Confirmar que la oferta responde a las necesidades y expectativas identificadas durante la interacción con el cliente.
+          div(numero="2" titulo="Atender las objeciones")
+            p.mb-0 Comprobar que las dudas o inquietudes planteadas hayan sido aclaradas mediante información y argumentos pertinentes.
+          div(numero="3" titulo="Identificar señales de compromiso")
+            p.mb-0 Reconocer expresiones de interés, aceptación de condiciones, selección de alternativas o preguntas relacionadas con la adquisición del producto o servicio.
+          div(numero="4" titulo="Aplicar la técnica de cierre")
+            p.mb-0 Seleccionar la técnica más adecuada de acuerdo con la situación comercial y el nivel de disposición manifestado por el cliente.
+          div(numero="5" titulo="Confirmar y realizar seguimiento")
+            p.mb-0 Concretar las condiciones acordadas y mantener la comunicación posterior para conocer la experiencia del cliente y fortalecer la relación comercial.
+      .col-sm-6.col-lg-3
+        figure
+          img(src="@/assets/curso/tema2/8.png", alt="" data-aos="zoom-in-down")
+
+    p.mb-4 Existen diferentes técnicas de cierre que pueden utilizarse según las características de la situación comercial: 
+
+
+    .bg-slider.p-3.px-2.p-md-4.rounded-4.mb-4.mb-lg-5
+      .row.justify-content-center.align-items-center
+        .col-lg-4.d-none.d-lg-block
+          figure
+            img.imgw-324(src='@/assets/curso/tema2/9.png', alt='')
+        .col-lg-8
+          SlyderF(columnas="col-xl-6")
+            .tarjeta.bg-cards-acento.p-4.pt-5
+              .row.justify-content-center.mb-3
+                .col-6.col-sm-4.col-xl-5
+                  img(src='@/assets/curso/tema2/10.svg' alt='')
+              p.text-center.mb-0 #[strong Cierre directo]. Consiste en solicitar de manera clara la decisión de compra cuando el cliente dispone de la información necesaria y ha manifestado interés en la oferta.
+            .tarjeta.bg-cards-acento.p-4.pt-5
+              .row.justify-content-center.mb-3
+                .col-6.col-sm-4.col-xl-5
+                  img(src='@/assets/curso/tema2/11.svg' alt='')
+              p.text-center.mb-0 #[strong Cierre por alternativa]. Consiste en presentar opciones pertinentes para que el cliente seleccione aquella que mejor responda a sus necesidades, facilitando la toma de decisión. 
+            .tarjeta.bg-cards-acento.p-4.pt-5
+              .row.justify-content-center.mb-3
+                .col-6.col-sm-4.col-xl-5
+                  img(src='@/assets/curso/tema2/12.svg' alt='')
+              p.text-center.mb-0 #[strong Cierre por resumen de beneficios]. Retoma los principales beneficios de la oferta relacionados con las necesidades identificadas antes de solicitar la confirmación de la compra. 
+            .tarjeta.bg-cards-acento.p-4.pt-5
+              .row.justify-content-center.mb-3
+                .col-6.col-sm-4.col-xl-5
+                  img(src='@/assets/curso/tema2/13.svg' alt='')
+              p.text-center.mb-0 #[strong Cierre por compromiso]. Se basa en acuerdos parciales alcanzados durante la interacción comercial que permiten avanzar progresivamente hacia la aceptación final de la propuesta. 
+
+    .bg-img.bg-img--contenido.p-4.rounded-4.overflow-hidden.mb-5
+      h5.mb-1 Ejemplo aplicado
+      p Un cliente interesado en contratar un servicio de capacitación empresarial manifiesta que su precio es elevado. Antes de responder, el asesor comercial indaga sobre las razones de su inquietud y las necesidades de la organización. A partir de esta información, explica cómo la capacitación puede contribuir al fortalecimiento de las competencias del personal y al mejoramiento de su desempeño. 
+      p.mb-0 De esta manera, el asesor no se limita a justificar el precio, sino que relaciona la inversión con los beneficios que puede generar el servicio, orientando la conversación hacia el valor de la oferta. 
+
+
+    .titulo-con-imagen.mb-5.z-2(data-aos="fade-right")
+      .titulo-con-imagen__fondo
+        img.titulo-con-imagen__imagen(src="@/assets/curso/common/icon-title.png")
+        h3.titulo-con-imagen__texto Seguimiento posterior a la venta 
+
+    p El cierre no finaliza la relación con el cliente. El seguimiento posterior permite conocer su experiencia, atender requerimientos relacionados con la compra y obtener información que contribuya al fortalecimiento de la relación comercial y a la identificación de oportunidades de fidelización. 
+
+    p.mb-4 A continuación, lo invitamos a consultar el siguiente pódcast para profundizar sobre cómo superar objeciones y cerrar más ventas. 
+
+
+    .row.justify-content-center.align-items-center.mb-4
       .col-xl-10
-        p.mb-0 Las organizaciones que desarrollan ventajas competitivas sostenibles tienen mayores posibilidades de adaptarse a los cambios del entorno y mantener su relevancia frente a la competencia. Por esta razón, la identificación y fortalecimiento de factores diferenciadores constituyen una actividad estratégica dentro de los procesos de planeación comercial y de mercadeo. 
+        .bg-audio.rounded-4.p-4
+          .row.align-items-center.justify-content-center
+            .col-sm-8.col-lg-8
+              p A continuación, se invita a ir al siguiente podcast: 
+              TarjetaAudio.mb-3.color-primario(
+                texto="¿Por qué los clientes dicen 'déjeme pensarlo'? Cómo superar objeciones y cerrar más ventas."
+                tiempo
+                :audio="require_src('@/assets/curso/podcast/podcast1.mp3')"
+                @audio-hover="mostrarIndicadorTarjetaAudio = false")
+            .col-8.col-sm-4
+              figure.pt-3
+                img.imgw-190.mb-4.mb-lg-0(src="@/assets/curso/common/mic.png", alt="")
 
     .row.justify-content-center.align-items-center.mb-4
       .col-xl-10
@@ -161,29 +213,15 @@
             .col
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
-                  h5.mb-1 ¿Qué es la propuesta de valor? Cómo crearla y ejemplos - modelo #[em Canvas] 
-                  p.mb-0 Para fortalecer los conocimientos sobre la propuesta de valor y comprender su importancia dentro del modelo de negocio Canvas, se recomienda consultar el siguiente video, en el cual se explica de manera práctica este componente y su aplicación en la construcción de modelos de negocio. 
+                  h5.mb-1 5 poderosas estrategias para vencer con las OBJECIONES de tus clientes // Brian Tracy 
+                  p.mb-0 Se recomienda consultar el siguiente recurso audiovisual, en el cual se presentan estrategias para el manejo de objeciones durante el proceso de ventas, abordando técnicas de comunicación, generación de confianza y argumentación comercial orientadas a facilitar el cierre efectivo de ventas:
                 .col-sm-auto.d-flex.gap-2.flex-column
-                  a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=yvgNSHqb4_M" target="_blank")
+                  a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=RKSkRmVMeNI" target="_blank")
                     span Ir al recurso
 
-    .row.justify-content-center.align-items-center
+    .row.justify-content-center
       .col-xl-10
-        .bg-audio.rounded-4.p-4
-          .row.align-items-center.justify-content-center
-            .col-sm-8.col-lg-8
-              p A continuación, se invita a ir al siguiente podcast: 
-              TarjetaAudio.mb-3.color-primario(
-                texto="¿Qué valor ofrezco al cliente? La propuesta de valor como base del emprendimiento"
-                tiempo
-                :audio="require_src('@/assets/curso/podcast/podcast1.mp3')"
-                @audio-hover="mostrarIndicadorTarjetaAudio = false")
-            .col-8.col-sm-4
-              figure.pt-3
-                img.imgw-190.mb-4.mb-lg-0(src="@/assets/curso/common/mic.png", alt="")
-
-
-
+        p La identificación de las objeciones, la aplicación de técnicas para su manejo y un cierre adecuado permiten fortalecer la confianza del cliente, facilitar su toma de decisiones y contribuir al cumplimiento de los objetivos comerciales de la organización.
 
 
 

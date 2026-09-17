@@ -79,6 +79,7 @@ figcaption, table caption
     background-size: cover
     background-position: center
     background-repeat: no-repeat
+  
 
 .bg-gradient
   background-image: url("../assets/curso/common/bg-gradient.png")
@@ -91,6 +92,8 @@ figcaption, table caption
   background-size: cover
   background-position: center
   background-repeat: no-repeat
+  &--ancha
+    background-image: url("../assets/curso/common/bg-cards-anchas.png")
 
 .bg-cards-acento
   background-image: url("../assets/curso/common/bg-cards-acento.png")
@@ -214,6 +217,19 @@ figcaption, table caption
       width: 50%
     @media screen and (min-width: $bp-min-xl)
       width: 45%
+.tabs-a.custom-tabs--1
+  &__tab
+    background-color: $color-secundario-s10
+  .col-lg-4.col-xl-3
+    @media screen and (min-width: $bp-min-lg)
+      width: 50%
+    @media screen and (min-width: $bp-min-xl)
+      width: 45%
+  .col-lg-8.col-xl-9
+    @media screen and (min-width: $bp-min-lg)
+      width: 50%
+    @media screen and (min-width: $bp-min-xl)
+      width: 55%
 
 .titulo-con-imagen
   display: flex
