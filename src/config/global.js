@@ -188,130 +188,130 @@ export default {
   },
   glosario: [
     {
-      termino: 'Análisis estratégico',
+      termino: 'Análisis de datos',
       significado:
-        'Proceso de evaluación de factores internos y externos que influyen en el desempeño de una organización.',
+        'Proceso de recopilación, organización e interpretación de información para obtener conclusiones útiles.',
     },
     {
-      termino: 'Atributos clave',
+      termino: 'Canal de distribución',
       significado:
-        'Características diferenciadoras que aportan valor a un producto, servicio o negocio.',
+        'Medio utilizado para hacer llegar productos o servicios desde el productor hasta el consumidor final.',
     },
     {
-      termino: '<em>Benchmark</em>',
+      termino: 'Cierre de ventas',
       significado:
-        'Técnica de comparación con organizaciones referentes para identificar buenas prácticas y oportunidades de mejora.',
+        'Etapa del proceso comercial en la que el cliente acepta la oferta y se concreta la transacción.',
     },
     {
-      termino: '<em>Canvas</em>',
+      termino: 'Cliente potencial',
       significado:
-        'Herramienta visual utilizada para diseñar, analizar y gestionar modelos de negocio.',
+        'Persona u organización con posibilidad de adquirir un producto o servicio ofrecido por la empresa.',
     },
     {
-      termino: 'Canal',
+      termino: 'Comercialización',
       significado:
-        'Medio utilizado para comunicar, distribuir o entregar valor al cliente.',
+        'Conjunto de actividades orientadas a llevar un producto o servicio desde la empresa hasta el cliente final, generando valor para ambas partes.',
     },
     {
-      termino: 'Curva de valor',
+      termino: 'Control comercial',
       significado:
-        'Representación gráfica de los atributos que una empresa ofrece frente a sus competidores.',
+        'Conjunto de acciones orientadas a verificar el cumplimiento de metas y corregir desviaciones en los resultados.',
     },
     {
-      termino: 'Diferenciación',
+      termino: 'Conversión de ventas',
       significado:
-        'Estrategia orientada a destacar una oferta frente a la competencia mediante características únicas.',
+        'Relación entre el número de oportunidades comerciales y las ventas efectivamente realizadas.',
     },
     {
-      termino: 'DOFA',
+      termino: 'Cumplimiento de metas',
       significado:
-        'Herramienta de análisis que identifica debilidades, oportunidades, fortalezas y amenazas.',
+        'Grado en que una organización alcanza los objetivos previamente establecidos.',
     },
     {
-      termino: 'Estrategia comercial',
+      termino: 'Desempeño comercial',
       significado:
-        'Conjunto de acciones orientadas a alcanzar objetivos de ventas y crecimiento empresarial.',
+        'Resultado obtenido por una organización en relación con sus objetivos de ventas y mercadeo.',
     },
     {
-      termino: 'Factor clave',
+      termino: 'Distribución exclusiva',
       significado:
-        'Elemento determinante para el éxito y sostenibilidad de un negocio.',
+        'Estrategia que asigna la comercialización de un producto a uno o pocos distribuidores autorizados.',
     },
     {
-      termino: '<em>Layout</em>',
+      termino: 'Distribución intensiva',
       significado:
-        'Distribución física de espacios, mobiliario y productos dentro de un establecimiento comercial.',
+        'Estrategia que busca que un producto esté disponible en la mayor cantidad posible de puntos de venta.',
     },
     {
-      termino: 'Mercadotecnia directa',
+      termino: 'Distribución selectiva',
       significado:
-        'Estrategia de comunicación que busca interactuar directamente con clientes potenciales.',
+        'Estrategia mediante la cual los productos se comercializan a través de un número limitado de intermediarios.',
     },
     {
-      termino: '<em>Marketing</em>',
+      termino: 'Fuerza de ventas',
       significado:
-        'Conjunto de actividades destinadas a identificar necesidades y generar valor para los clientes.',
+        'Grupo de personas responsables de ejecutar las actividades de venta y atención comercial.',
     },
     {
-      termino: '<em>Marketing mix</em>',
+      termino: 'Indicador de gestión',
       significado:
-        'Combinación de variables de mercadeo utilizadas para alcanzar objetivos comerciales.',
+        'Medida utilizada para evaluar el desempeño y el cumplimiento de objetivos comerciales o de mercadeo.',
     },
     {
-      termino: '<em>Marketing</em> experiencial',
+      termino: 'Mejora continua',
       significado:
-        'Estrategia que busca generar experiencias memorables para fortalecer la relación con el cliente.',
+        'Metodología orientada a optimizar procesos, resultados y desempeño de manera permanente.',
     },
     {
-      termino: '<em>Merchandising</em>',
+      termino: 'Objeción',
       significado:
-        'Conjunto de técnicas aplicadas en el punto de venta para estimular la compra de productos o servicios.',
+        'Duda, inquietud o resistencia manifestada por un cliente durante el proceso de venta antes de tomar una decisión de compra.',
     },
     {
-      termino: 'Mercado objetivo',
+      termino: 'Productividad comercial',
       significado:
-        'Grupo específico de consumidores al que se dirige una organización.',
+        'Capacidad de generar resultados comerciales mediante el uso eficiente de los recursos disponibles.',
     },
     {
-      termino: '<em>Neuromarketing</em>',
+      termino: 'Pronóstico de ventas',
       significado:
-        'Disciplina que estudia las respuestas del cerebro ante estímulos de mercadeo y consumo.',
+        'Estimación de las ventas futuras basada en datos históricos y variables del mercado.',
     },
     {
-      termino: 'PEST',
+      termino: 'Rentabilidad comercial',
       significado:
-        'Herramienta que analiza factores políticos, económicos, sociales y tecnológicos del entorno.',
+        'Capacidad de las actividades comerciales para generar beneficios económicos para la organización.',
     },
     {
-      termino: 'Posicionamiento',
+      termino: 'Seguimiento comercial',
       significado:
-        'Lugar que ocupa una marca o producto en la mente de los consumidores.',
+        'Proceso de monitoreo de actividades, resultados y acciones relacionadas con la gestión comercial.',
     },
     {
-      termino: 'Propuesta de valor',
+      termino: 'Software estadístico',
       significado:
-        'Beneficio diferencial que una organización ofrece para satisfacer necesidades de sus clientes.',
+        'Herramienta informática utilizada para organizar, procesar y analizar datos con fines de evaluación y toma de decisiones.',
     },
     {
-      termino: '<em>Store planning</em>',
+      termino: 'Toma de decisiones',
       significado:
-        'Planificación estratégica de la distribución y organización de espacios dentro de un establecimiento comercial.',
+        'Proceso mediante el cual se selecciona una alternativa de acción con base en información y análisis previos.',
     },
   ],
   referencias: [
     {
       referencia:
-        'Cámara de Comercio de Bogotá. (2024). <em>Herramientas para la planeación estratégica empresarial</em>.',
-      link: 'https://www.ccb.org.co',
+        'Bastos Boubeta, A. I. (2018). <em>Gestión comercial y servicio de atención al cliente</em>. Editorial IC.',
+      link: '',
     },
     {
       referencia:
-        'Confecámaras. (2024). <em>Competitividad, mercados y crecimiento empresarial en Colombia</em>.',
-      link: 'https://www.confecamaras.org.co',
+        'Fischer, L., & Espejo, J. (2017). <em>Mercadotecnia</em> (5.ª ed.). McGraw-Hill Interamericana.',
+      link: '',
     },
     {
       referencia:
-        'Ferrell, O. C., & Hartline, M. D. (2022). <em>Estrategia de marketing</em> (8.ª ed.). Cengage Learning.',
+        'Jobber, D., & Lancaster, G. (2012). <em>Administración de ventas</em> (8.ª ed.). Pearson Educación.',
       link: '',
     },
     {
@@ -321,33 +321,38 @@ export default {
     },
     {
       referencia:
-        'Ministerio de Comercio, Industria y Turismo. (2024). <em>Estrategias para el fortalecimiento empresarial y comercial</em>.',
-      link: 'https://www.mincit.gov.co',
+        'Monferrer Tirado, D. (2013). <em>Fundamentos de marketing</em>. Universitat Jaume I.',
+      link: 'https://repositori.uji.es/xmlui/handle/10234/49394',
     },
     {
       referencia:
-        'Osterwalder, A., & Pigneur, Y. (2011). <em>Generación de modelos de negocio: Un manual para visionarios, revolucionarios y retadores</em>. Deusto.',
+        'Muñiz González, R. (2020). <em>Marketing en el siglo XXI</em> (6.ª ed.). Centro de Estudios Financieros.',
+      link: 'https://www.marketing-xxi.com',
+    },
+    {
+      referencia:
+        'Osterwalder, A., & Pigneur, Y. (2011). <em>Generación de modelos de negocio</em>. Deusto.',
       link: '',
     },
     {
       referencia:
-        'Porter, M. E. (2008). <em>Ser competitivo</em>. Ediciones Deusto.',
+        'Sainz de Vicuña Ancín, J. M. (2021). <em>El plan de marketing en la práctica</em> (25.ª ed.). ESIC Editorial.',
       link: '',
     },
     {
       referencia:
-        'Servicio Nacional de Aprendizaje [SENA]. (2025). <em>Guía metodológica para la formulación de planes de mercadeo</em>.',
-      link: 'https://www.sena.edu.co',
-    },
-    {
-      referencia:
-        'Stanton, W. J., Etzel, M. J., & Walker, B. J. (2018). <em>Fundamentos de marketing</em> (14.ª ed.). McGraw-Hill.',
+        'Sánchez Herrera, J., & Pintado Blanco, T. (2017). <em>Imagen corporativa: Influencia en la gestión empresarial</em>. ESIC Editorial.',
       link: '',
     },
     {
       referencia:
-        'Superintendencia de Industria y Comercio. (2024). <em>Guía de buenas prácticas comerciales y protección al consumidor</em>.',
-      link: 'https://www.sic.gov.co',
+        'Universitat Oberta de Catalunya. (s. f.). <em>Indicadores de gestión y control empresarial</em>.',
+      link: 'https://openaccess.uoc.edu',
+    },
+    {
+      referencia:
+        'Westreicher, G. (s. f.). <em>Canales de distribución</em>. Economipedia.',
+      link: 'https://economipedia.com/definiciones/canales-de-distribucion.html',
     },
   ],
   creditos: [
@@ -396,7 +401,7 @@ export default {
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Fabio Fonseca Arguelles',
           cargo: 'Desarrollador <i>full stack</i>',
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
