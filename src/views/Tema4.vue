@@ -88,7 +88,7 @@
         div.banner-text.shadow
           p.mb-0 Los indicadores de gestión comercial permiten medir diferentes aspectos relacionados con las ventas, los clientes y los resultados obtenidos por la organización. Su selección debe responder a los objetivos y metas establecidos en el plan comercial y de mercadeo, de manera que la información obtenida contribuya al seguimiento del desempeño y a la toma de decisiones. 
 
-    p.mb-4.mb-lg-5 Los indicadores de gestión comercial permiten medir diferentes aspectos relacionados con las ventas, los clientes y los resultados obtenidos por la organización. Su selección debe responder a los objetivos y metas establecidos en el plan comercial y de mercadeo, de manera que la información obtenida contribuya al seguimiento del desempeño y a la toma de decisiones. 
+    p.mb-4.mb-lg-5 Entre los indicadores abordados en este componente se encuentran el cumplimiento de ventas, el crecimiento de ventas, la tasa de conversión, el nivel de satisfacción del cliente y el índice de fidelización. 
 
     .titulo-sexto.color-acento-contenido.mb-4
       h5 Tabla 2.
@@ -161,7 +161,7 @@
         img.titulo-con-imagen__imagen(src="@/assets/curso/common/icon-title.png")
         h3.titulo-con-imagen__texto Seguimiento y control del plan comercial 
 
-    p.mb-4 A continuación se describen los pasos o etapas para el correcto y eficiente de seguimiento y control del plan comercial: 
+    p.mb-4 A continuación, se describen los pasos o etapas para el correcto y eficiente de seguimiento y control del plan comercial: 
     
 
     .row.justify-content-center.align-items-center.z-2.mb-4

@@ -57,7 +57,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            '¡Correcto! Has identificado que el proceso técnico de comercialización permite planificar y ejecutar actividades orientadas a llevar productos y servicios al mercado.',
+            'Has identificado que el proceso técnico de comercialización permite planificar y ejecutar actividades orientadas a llevar productos y servicios al mercado.',
           mensaje_incorrecto:
             'Te recomendamos revisar nuevamente el contenido relacionado con el proceso técnico de comercialización.',
         },
@@ -91,7 +91,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            '¡Correcto! Has reconocido que la identificación de necesidades y oportunidades de mercado constituye la primera etapa del proceso de comercialización.',
+            'Has reconocido que la identificación de necesidades y oportunidades de mercado constituye la primera etapa del proceso de comercialización.',
           mensaje_incorrecto:
             'Te recomendamos revisar nuevamente las etapas del proceso técnico de comercialización.',
         },
@@ -124,7 +124,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            '¡Correcto! Has identificado que la planificación comercial permite definir objetivos, metas y estrategias para alcanzar resultados comerciales.',
+            'Has identificado que la planificación comercial permite definir objetivos, metas y estrategias para alcanzar resultados comerciales.',
           mensaje_incorrecto:
             'Te recomendamos revisar nuevamente el contenido relacionado con la planificación comercial.',
         },
@@ -158,7 +158,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            '¡Correcto! Has reconocido que la promoción comercial busca informar y persuadir a los consumidores acerca de los productos o servicios.',
+            'Has reconocido que la promoción comercial busca informar y persuadir a los consumidores acerca de los productos o servicios.',
           mensaje_incorrecto:
             'Te recomendamos revisar nuevamente el contenido relacionado con la promoción y comunicación comercial.',
         },
@@ -191,7 +191,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            '¡Correcto! Has identificado que una objeción corresponde a una inquietud o preocupación expresada por el cliente durante el proceso de compra.',
+            'Has identificado que una objeción corresponde a una inquietud o preocupación expresada por el cliente durante el proceso de compra.',
           mensaje_incorrecto:
             'Te recomendamos revisar nuevamente el contenido relacionado con las objeciones en ventas.',
         },
@@ -214,7 +214,7 @@ export default {
             },
             {
               id: 'c',
-              texto: 'Benchmarking.',
+              texto: '<em>Benchmarking</em>.',
               esCorrecta: false,
             },
             {
@@ -224,7 +224,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            '¡Correcto! Has reconocido que la escucha activa permite comprender las necesidades y preocupaciones expresadas por el cliente.',
+            'Has reconocido que la escucha activa permite comprender las necesidades y preocupaciones expresadas por el cliente.',
           mensaje_incorrecto:
             'Te recomendamos revisar nuevamente las técnicas para el manejo de objeciones.',
         },
@@ -256,7 +256,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            '¡Correcto! Has identificado que esta técnica busca destacar los beneficios que el cliente obtiene con la adquisición del producto o servicio.',
+            'Has identificado que esta técnica busca destacar los beneficios que el cliente obtiene con la adquisición del producto o servicio.',
           mensaje_incorrecto:
             'Te recomendamos revisar nuevamente el contenido relacionado con el manejo de objeciones.',
         },
@@ -288,7 +288,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            '¡Correcto! Has reconocido que un cierre de ventas efectivo se logra al resolver objeciones y fortalecer la confianza del cliente.',
+            'Has reconocido que un cierre de ventas efectivo se logra al resolver objeciones y fortalecer la confianza del cliente.',
           mensaje_incorrecto:
             'Te recomendamos revisar nuevamente el contenido relacionado con el cierre de ventas.',
         },
@@ -321,7 +321,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            '¡Correcto! Has identificado que los canales de distribución permiten que los productos lleguen al consumidor final.',
+            'Has identificado que los canales de distribución permiten que los productos lleguen al consumidor final.',
           mensaje_incorrecto:
             'Te recomendamos revisar nuevamente el contenido relacionado con los canales de distribución y venta.',
         },
@@ -355,7 +355,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            '¡Correcto! Has reconocido que la distribución intensiva busca lograr la mayor cobertura posible del mercado.',
+            'Has reconocido que la distribución intensiva busca lograr la mayor cobertura posible del mercado.',
           mensaje_incorrecto:
             'Te recomendamos revisar nuevamente el contenido relacionado con las estrategias de distribución.',
         },
@@ -388,7 +388,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            '¡Correcto! Has identificado que la distribución selectiva utiliza intermediarios seleccionados para comercializar los productos.',
+            'Has identificado que la distribución selectiva utiliza intermediarios seleccionados para comercializar los productos.',
           mensaje_incorrecto:
             'Te recomendamos revisar nuevamente el contenido relacionado con los tipos de canales de distribución.',
         },
@@ -422,7 +422,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            '¡Correcto! Has reconocido que la comercialización omnicanal integra diferentes canales para mejorar la experiencia del cliente.',
+            'Has reconocido que la comercialización omnicanal integra diferentes canales para mejorar la experiencia del cliente.',
           mensaje_incorrecto:
             'Te recomendamos revisar nuevamente el contenido relacionado con las estrategias de venta y comercialización.',
         },
@@ -455,7 +455,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            '¡Correcto! Has identificado que los indicadores permiten medir y evaluar el desempeño de las actividades comerciales.',
+            'Has identificado que los indicadores permiten medir y evaluar el desempeño de las actividades comerciales.',
           mensaje_incorrecto:
             'Te recomendamos revisar nuevamente el contenido relacionado con los indicadores de gestión comercial.',
         },
@@ -489,7 +489,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            '¡Correcto! Has reconocido que este indicador permite medir el nivel de cumplimiento de las metas comerciales.',
+            'Has reconocido que este indicador permite medir el nivel de cumplimiento de las metas comerciales.',
           mensaje_incorrecto:
             'Te recomendamos revisar nuevamente el contenido relacionado con los indicadores de ventas.',
         },
@@ -522,7 +522,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            '¡Correcto! Has identificado que la tasa de conversión permite evaluar la efectividad de las estrategias comerciales.',
+            'Has identificado que la tasa de conversión permite evaluar la efectividad de las estrategias comerciales.',
           mensaje_incorrecto:
             'Te recomendamos revisar nuevamente el contenido relacionado con los indicadores de gestión comercial.',
         },
@@ -556,7 +556,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            '¡Correcto! Has reconocido que el seguimiento permite evaluar resultados y realizar ajustes cuando sea necesario.',
+            'Has reconocido que el seguimiento permite evaluar resultados y realizar ajustes cuando sea necesario.',
           mensaje_incorrecto:
             'Te recomendamos revisar nuevamente el contenido relacionado con el seguimiento y control del plan comercial.',
         },
@@ -589,7 +589,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            '¡Correcto! Has identificado que los datos facilitan el análisis del mercado y la toma de decisiones informadas.',
+            'Has identificado que los datos facilitan el análisis del mercado y la toma de decisiones informadas.',
           mensaje_incorrecto:
             'Te recomendamos revisar nuevamente el contenido relacionado con la importancia de los datos en la gestión comercial.',
         },
@@ -622,9 +622,9 @@ export default {
             },
           ],
           mensaje_correcto:
-            '¡Correcto! Has reconocido que Power BI es una herramienta utilizada para el análisis y visualización de datos comerciales.',
+            'Has reconocido que Power BI es una herramienta utilizada para el análisis y visualización de datos comerciales.',
           mensaje_incorrecto:
-            'Te recomendamos revisar nuevamente el contenido relacionado con el software para el análisis de datos.',
+            'Te recomendamos revisar nuevamente el contenido relacionado con el <em>software</em> para el análisis de datos.',
         },
         {
           id: 19,
@@ -656,7 +656,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            '¡Correcto! Has identificado que los sistemas CRM facilitan la gestión de clientes y el seguimiento de oportunidades de venta.',
+            'Has identificado que los sistemas CRM facilitan la gestión de clientes y el seguimiento de oportunidades de venta.',
           mensaje_incorrecto:
             'Te recomendamos revisar nuevamente el contenido relacionado con las herramientas tecnológicas para la gestión comercial.',
         },
@@ -689,7 +689,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            '¡Correcto! Has reconocido que la interpretación de resultados permite identificar tendencias y tomar decisiones fundamentadas en información objetiva.',
+            'Has reconocido que la interpretación de resultados permite identificar tendencias y tomar decisiones fundamentadas en información objetiva.',
           mensaje_incorrecto:
             'Te recomendamos revisar nuevamente el contenido relacionado con la interpretación de resultados y la toma de decisiones.',
         },

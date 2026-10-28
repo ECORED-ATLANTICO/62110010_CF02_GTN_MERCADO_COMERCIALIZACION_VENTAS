@@ -66,7 +66,7 @@
     separador
     
     #t_5_2.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-      h2 5.2 Uso de software para el análisis de datos estadísticos 
+      h2 5.2 Uso de #[em software] para el análisis de datos estadísticos 
 
     .bloque-texto-g.color-acento-botones.p-3.p-sm-4.p-md-5.mb-5
       .bloque-texto-g__img(
@@ -164,7 +164,7 @@
         :style="{'background-image': `url(${require_src('@/assets/curso/tema5/12.png')})`}"
       )
       .bloque-texto-g__texto.p-4
-        p.mb-0 En conclusión, el análisis de datos constituye una herramienta fundamental para la gestión comercial moderna. La recopilación de información, el uso de software especializado y la adecuada interpretación de resultados permiten tomar decisiones más acertadas, optimizar recursos y fortalecer la competitividad de las organizaciones en mercados cada vez más dinámicos. 
+        p.mb-0 En conclusión, el análisis de datos constituye una herramienta fundamental para la gestión comercial moderna. La recopilación de información, el uso de #[em software] especializado y la adecuada interpretación de resultados permiten tomar decisiones más acertadas, optimizar recursos y fortalecer la competitividad de las organizaciones en mercados cada vez más dinámicos. 
 
     p.mb-4 A continuación, lo invitamos a consultar el siguiente pódcast en donde se profundiza sobre cómo tomar mejores decisiones para potenciar su emprendimiento. 
 
@@ -173,11 +173,10 @@
         .bg-audio.rounded-4.p-4
           .row.align-items-center.justify-content-center
             .col-sm-8.col-lg-8
-              p A continuación, se invita a ir al siguiente podcast: 
               TarjetaAudio.mb-3.color-primario(
-                texto="¿Qué valor ofrezco al cliente? La propuesta de valor como base del emprendimiento"
+                texto="Los números también venden: cómo tomar mejores decisiones en tu emprendimiento"
                 tiempo
-                :audio="require_src('@/assets/curso/podcast/podcast1.mp3')"
+                :audio="require_src('@/assets/curso/podcast/62110010_CF02_Podcast_02.mp3')"
                 @audio-hover="mostrarIndicadorTarjetaAudio = false")
             .col-8.col-sm-4
               figure.pt-3
@@ -198,6 +197,7 @@
                   a.boton.color-acento-botones(href="https://www.tableau.com/es-es/learn/articles/data-driven-decision-making" target="_blank")
                     span Ir al recurso
 
+    p La recopilación de datos, su procesamiento mediante herramientas digitales y la interpretación de los resultados conforman un proceso articulado que permite transformar la información comercial en conocimiento útil para la toma de decisiones. Su aplicación contribuye al seguimiento del desempeño, la identificación de oportunidades y la definición de acciones orientadas al cumplimiento de los objetivos del plan comercial y de mercadeo. 
 
 </template>
 

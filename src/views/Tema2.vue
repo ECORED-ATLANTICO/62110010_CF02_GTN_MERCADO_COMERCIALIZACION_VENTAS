@@ -175,9 +175,8 @@
 
     .bg-img.bg-img--contenido.p-4.rounded-4.overflow-hidden.mb-5
       h5.mb-1 Ejemplo aplicado
-      p Un cliente interesado en contratar un servicio de capacitación empresarial manifiesta que su precio es elevado. Antes de responder, el asesor comercial indaga sobre las razones de su inquietud y las necesidades de la organización. A partir de esta información, explica cómo la capacitación puede contribuir al fortalecimiento de las competencias del personal y al mejoramiento de su desempeño. 
-      p.mb-0 De esta manera, el asesor no se limita a justificar el precio, sino que relaciona la inversión con los beneficios que puede generar el servicio, orientando la conversación hacia el valor de la oferta. 
-
+      p Un cliente interesado en contratar el servicio de capacitación empresarial abordado anteriormente manifiesta que la propuesta responde a las necesidades de su organización, pero aún duda entre dos modalidades disponibles. El asesor confirma que las inquietudes relacionadas con el precio han sido aclaradas y presenta las dos alternativas, explicando brevemente sus diferencias y beneficios.
+      p.mb-0 El cliente selecciona la modalidad que considera más conveniente y confirma las condiciones del servicio. En este caso, el asesor aplica un cierre por alternativa, pues facilita la decisión sin ejercer presión y orienta la elección de acuerdo con las necesidades previamente identificadas. 
 
     .titulo-con-imagen.mb-5.z-2(data-aos="fade-right")
       .titulo-con-imagen__fondo
@@ -194,11 +193,10 @@
         .bg-audio.rounded-4.p-4
           .row.align-items-center.justify-content-center
             .col-sm-8.col-lg-8
-              p A continuación, se invita a ir al siguiente podcast: 
               TarjetaAudio.mb-3.color-primario(
                 texto="¿Por qué los clientes dicen 'déjeme pensarlo'? Cómo superar objeciones y cerrar más ventas."
                 tiempo
-                :audio="require_src('@/assets/curso/podcast/podcast1.mp3')"
+                :audio="require_src('@/assets/curso/podcast/62110010_CF02_Podcast_01.mp3')"
                 @audio-hover="mostrarIndicadorTarjetaAudio = false")
             .col-8.col-sm-4
               figure.pt-3
@@ -213,7 +211,7 @@
             .col
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
-                  h5.mb-1 5 poderosas estrategias para vencer con las OBJECIONES de tus clientes // Brian Tracy 
+                  h5.mb-1 5 poderosas estrategias para vencer con las objeciones de tus clientes // Brian Tracy 
                   p.mb-0 Se recomienda consultar el siguiente recurso audiovisual, en el cual se presentan estrategias para el manejo de objeciones durante el proceso de ventas, abordando técnicas de comunicación, generación de confianza y argumentación comercial orientadas a facilitar el cierre efectivo de ventas:
                 .col-sm-auto.d-flex.gap-2.flex-column
                   a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=RKSkRmVMeNI" target="_blank")

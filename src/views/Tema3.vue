@@ -164,7 +164,7 @@
             .col
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
-                  h5.mb-1 Canales de Distribución: cómo llegan los productos al cliente final
+                  h5.mb-1 Canales de distribución: cómo llegan los productos al cliente final
                   p.mb-0 Se recomienda consultar el siguiente recurso audiovisual, en el cual se aborda la importancia del análisis de datos para apoyar la toma de decisiones y mejorar los resultados comerciales de una organización:
                 .col-sm-auto.d-flex.gap-2.flex-column
                   a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=c1bTM7DjFRA" target="_blank")

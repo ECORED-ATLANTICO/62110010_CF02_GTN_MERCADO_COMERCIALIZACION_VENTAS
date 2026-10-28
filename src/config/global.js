@@ -37,8 +37,7 @@ export default {
         subMenu: [
           {
             numero: '1.1',
-            titulo:
-              'Concepto e importancia del proceso técnico de comercialización',
+            titulo: 'Concepto e importancia',
             hash: 't_1_1',
           },
           {
@@ -135,7 +134,8 @@ export default {
           },
           {
             numero: '5.2',
-            titulo: 'Uso de software para el análisis de datos estadísticos',
+            titulo:
+              'Uso de <em>software</em> para el análisis de datos estadísticos',
             hash: 't_5_2',
           },
           {
@@ -172,7 +172,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/dist.pdf',
+        download: 'downloads/62110010_CF02_CFA.zip',
       },
       {
         icono: 'fas fa-download',
@@ -288,7 +288,7 @@ export default {
         'Proceso de monitoreo de actividades, resultados y acciones relacionadas con la gestión comercial.',
     },
     {
-      termino: 'Software estadístico',
+      termino: '<em>Software</em> estadístico',
       significado:
         'Herramienta informática utilizada para organizar, procesar y analizar datos con fines de evaluación y toma de decisiones.',
     },
@@ -301,57 +301,57 @@ export default {
   referencias: [
     {
       referencia:
-        'Bastos Boubeta, A. I. (2018). <em>Gestión comercial y servicio de atención al cliente</em>. Editorial IC.',
+        'Bastos Boubeta, A. I. (2018). Gestión comercial y servicio de atención al cliente. Editorial IC.',
       link: '',
     },
     {
       referencia:
-        'Fischer, L., & Espejo, J. (2017). <em>Mercadotecnia</em> (5.ª ed.). McGraw-Hill Interamericana.',
+        'Fischer, L., & Espejo, J. (2017). Mercadotecnia (5.ª ed.). McGraw-Hill Interamericana.',
       link: '',
     },
     {
       referencia:
-        'Jobber, D., & Lancaster, G. (2012). <em>Administración de ventas</em> (8.ª ed.). Pearson Educación.',
+        'Jobber, D., & Lancaster, G. (2012). Administración de ventas (8.ª ed.). Pearson Educación.',
       link: '',
     },
     {
       referencia:
-        'Kotler, P., & Keller, K. L. (2016). <em>Dirección de marketing</em> (15.ª ed.). Pearson Educación.',
+        'Kotler, P., & Keller, K. L. (2016). Dirección de <em>marketing</em> (15.ª ed.). Pearson Educación.',
       link: '',
     },
     {
       referencia:
-        'Monferrer Tirado, D. (2013). <em>Fundamentos de marketing</em>. Universitat Jaume I.',
-      link: 'https://repositori.uji.es/xmlui/handle/10234/49394',
+        'Monferrer Tirado, D. (2013). Fundamentos de <em>marketing</em>. Universitat Jaume I.',
+      link: 'https://repositori.uji.es/items/05654619-dfa8-401e-9c20-4e7b93cbf89b',
     },
     {
       referencia:
-        'Muñiz González, R. (2020). <em>Marketing en el siglo XXI</em> (6.ª ed.). Centro de Estudios Financieros.',
+        'Muñiz González, R. (2020). <em>Marketing</em> en el siglo XXI (6.ª ed.). Centro de Estudios Financieros.',
       link: 'https://www.marketing-xxi.com',
     },
     {
       referencia:
-        'Osterwalder, A., & Pigneur, Y. (2011). <em>Generación de modelos de negocio</em>. Deusto.',
+        'Osterwalder, A., & Pigneur, Y. (2011). Generación de modelos de negocio. Deusto.',
       link: '',
     },
     {
       referencia:
-        'Sainz de Vicuña Ancín, J. M. (2021). <em>El plan de marketing en la práctica</em> (25.ª ed.). ESIC Editorial.',
+        'Sainz de Vicuña Ancín, J. M. (2021). El plan de <em>marketing</em> en la práctica (25.ª ed.). ESIC Editorial.',
       link: '',
     },
     {
       referencia:
-        'Sánchez Herrera, J., & Pintado Blanco, T. (2017). <em>Imagen corporativa: Influencia en la gestión empresarial</em>. ESIC Editorial.',
+        'Sánchez Herrera, J., & Pintado Blanco, T. (2017). Imagen corporativa: Influencia en la gestión empresarial. ESIC Editorial.',
       link: '',
     },
     {
       referencia:
-        'Universitat Oberta de Catalunya. (s. f.). <em>Indicadores de gestión y control empresarial</em>.',
+        'Universitat Oberta de Catalunya. (s. f.). Indicadores de gestión y control empresarial.',
       link: 'https://openaccess.uoc.edu',
     },
     {
       referencia:
-        'Westreicher, G. (s. f.). <em>Canales de distribución</em>. Economipedia.',
+        'Westreicher, G. (s. f.). Canales de distribución. Economipedia.',
       link: 'https://economipedia.com/definiciones/canales-de-distribucion.html',
     },
   ],
@@ -376,18 +376,13 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
+          nombre: 'Mario Morales Cabrera ',
+          cargo: 'Experto temático comercio y servicio',
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
-          centro: 'Centro de Comercio y Servicios - Regional Atlántico',
-        },
-        {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
+          nombre: 'Rosmery Conde',
+          cargo: 'Evaluadora instruccional',
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
       ],
@@ -396,8 +391,8 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Diseñador de contenidos',
+          nombre: 'Carmen Alicia Martínez Torres',
+          cargo: 'Diseñadora de contenidos digitales',
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
         {
@@ -422,21 +417,21 @@ export default {
       autores: [
         {
           nombre: 'Luz Karime Amaya Cabra',
-          cargo: 'Evaluador de contenidos inclusivos y accesibles',
-          centro: 'Centro de Comercio y Servicios - Regional Atlántico',
-        },
-        {
-          nombre: 'Laura Daniela Burgos Rueda',
-          cargo: 'Evaluador de contenidos inclusivos y accesibles',
-          centro: 'Centro de Comercio y Servicios - Regional Atlántico',
-        },
-        {
-          nombre: 'Jonathan Adié Villafañe',
-          cargo: 'Validador y vinculador de recursos educativos digitales',
+          cargo: 'Evaluadora de contenidos inclusivos y accesibles',
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
         {
           nombre: 'Karine Isabel Ospino Fritz',
+          cargo: 'Evaluadora de contenidos inclusivos y accesibles',
+          centro: 'Centro de Comercio y Servicios - Regional Atlántico',
+        },
+        {
+          nombre: 'Laura Daniela Burgos Rueda',
+          cargo: 'Validadora y vinculadora de recursos educativos digitales ',
+          centro: 'Centro de Comercio y Servicios - Regional Atlántico',
+        },
+        {
+          nombre: 'Luis Gabriel Urueta',
           cargo: 'Validador y vinculador de recursos educativos digitales',
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
