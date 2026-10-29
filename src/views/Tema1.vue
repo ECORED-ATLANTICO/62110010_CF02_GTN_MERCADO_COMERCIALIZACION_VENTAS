@@ -136,7 +136,7 @@
             .col
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
-                  h5.mb-1 Caso aplicado: lanzamiento de una línea de #[em snacks] saludables. 
+                  h5.mb-1 Caso aplicado: lanzamiento de una línea de #[em snacks] saludables
                   p.mb-0 Para reconocer cómo se integran estas etapas en una situación empresarial, consulte el anexo.
                   p.mb-0 En este recurso se presenta una situación en la que una organización identifica una oportunidad de mercado, planifica su estrategia, desarrolla acciones de promoción y distribución, realiza ventas y utiliza los resultados obtenidos para tomar decisiones de mejora.  
                 .col-sm-auto.d-flex.gap-2.flex-column
