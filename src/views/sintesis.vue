@@ -14,7 +14,7 @@
     .row.justify-content-center
       .col-lg-12
         figure
-          img.mb-5(src="@/assets/curso/sintesis.svg", alt="Diagrama conceptual sobre el control del plan comercial y de mercadeo, organizado en cinco áreas: proceso técnico de comercialización, gestión de objeciones y cierre de ventas, indicadores y seguimiento del desempeño comercial, indicadores de gestión comercial y análisis de datos para la toma de decisiones comerciales. Cada área incluye conceptos, etapas, técnicas, indicadores, seguimiento, control e interpretación de datos, según corresponda, para apoyar la gestión comercial y la toma de decisiones.")
+          img.mb-5(src="@/assets/curso/sintesis.svg", alt="En este componente integra el proceso técnico de comercialización, la gestión de objeciones y el cierre de ventas, así como los canales de distribución y las estrategias de comercialización. ")
       .col-auto
         a.anexo.mb-5(:href="obtenerLink('/downloads/Sintesis.pdf')" target="_blank")
           .anexo__icono

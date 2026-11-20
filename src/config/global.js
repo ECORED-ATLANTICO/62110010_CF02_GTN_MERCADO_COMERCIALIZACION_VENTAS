@@ -341,17 +341,7 @@ export default {
     },
     {
       referencia:
-        'Sánchez Herrera, J., & Pintado Blanco, T. (2017). Imagen corporativa: Influencia en la gestión empresarial. ESIC Editorial.',
-      link: '',
-    },
-    {
-      referencia:
-        'Universitat Oberta de Catalunya. (s. f.). Indicadores de gestión y control empresarial.',
-      link: 'https://openaccess.uoc.edu',
-    },
-    {
-      referencia:
-        'Westreicher, G. (s. f.). Canales de distribución. Economipedia.',
+        'Westreicher, G. (s. f.). Canales de distribución: qué son, tipos y ejemplos. Economipedia. ',
       link: 'https://economipedia.com/definiciones/canales-de-distribucion.html',
     },
   ],

@@ -53,7 +53,7 @@
       .bloque-texto-g__texto.p-4
         p.mb-0 Las organizaciones pueden utilizar diferentes canales de distribución de acuerdo con sus objetivos comerciales, las características de los productos o servicios, el mercado que atienden y el perfil de sus clientes. Una de las principales diferencias entre estos canales se relaciona con la participación de intermediarios y la forma en que la oferta llega al consumidor final. 
 
-    p.mb-4 En la siguiente tabla a continuación, se describen los tipos de canales de distribución: 
+    p.mb-4 En la siguiente tabla se describen los tipos de canales de distribución: 
 
     .titulo-sexto.color-acento-contenido.mb-4
       h5 Tabla 1.
