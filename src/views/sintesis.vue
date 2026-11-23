@@ -14,7 +14,7 @@
     .row.justify-content-center
       .col-lg-12
         figure
-          img.mb-5(src="@/assets/curso/sintesis.svg", alt="En este componente integra el proceso técnico de comercialización, la gestión de objeciones y el cierre de ventas, así como los canales de distribución y las estrategias de comercialización. ")
+          img.mb-5(src="@/assets/curso/sintesis.svg", alt="Este componente formativo entrega al aprendiz conceptos para el manejo de ventas, objeciones  y canales, le enseña a aplicar estrategias y analizar indicadores, datos, herramientas digitales para la evaluación y mejora del plan comercial  y de mercadeo. ")
       .col-auto
         a.anexo.mb-5(:href="obtenerLink('/downloads/Sintesis.pdf')" target="_blank")
           .anexo__icono

@@ -301,8 +301,23 @@ export default {
   referencias: [
     {
       referencia:
+        'AlejandroGCR. (2026, 20 de febrero). 1. Canales de distribución: cómo llegan los productos al cliente final  [Video]. YouTube. ',
+      link: 'https://www.youtube.com/watch?v=c1bTM7DjFRA',
+    },
+    {
+      referencia:
+        'Alejavi Rivera. (2025, 19 de enero). BRUTAL! 3 IAs GRATIS para analizar datos FÁCIL y RÁPIDO Tutorial con ChatGPT, Julius y Datasq... [Video]. YouTube. ',
+      link: 'https://www.youtube.com/watch?v=NMY_2hrk6Es',
+    },
+    {
+      referencia:
         'Bastos Boubeta, A. I. (2018). Gestión comercial y servicio de atención al cliente. Editorial IC.',
       link: '',
+    },
+    {
+      referencia:
+        'Edutin Academy. (2024, 15 de agosto). Proceso de venta de un producto - Curso de ventas [Video]. YouTube. ',
+      link: 'https://www.youtube.com/watch?v=Xx6o1r_sN5o',
     },
     {
       referencia:
@@ -338,6 +353,21 @@ export default {
       referencia:
         'Sainz de Vicuña Ancín, J. M. (2021). El plan de <em>marketing</em> en la práctica (25.ª ed.). ESIC Editorial.',
       link: '',
+    },
+    {
+      referencia:
+        'Tableau. (s. f.). Toma de decisiones basadas en los datos: cómo tener éxito en la era digital. ',
+      link: 'https://www.tableau.com/es-es/learn/articles/data-driven-decision-making',
+    },
+    {
+      referencia:
+        'Venta Millonaria. (2023, 20 de septiembre). 5 poderosas estrategias para vencer con las objeciones de tus clientes // Brian Tracy [Video]. YouTube. ',
+      link: 'https://www.youtube.com/watch?v=RKSkRmVMeNI',
+    },
+    {
+      referencia:
+        'Virtual Training Lteam. (2016, 5 de diciembre). Indicadores de gestión [Video]. YouTube. ',
+      link: 'https://www.youtube.com/watch?v=91b3REuGMTs ',
     },
     {
       referencia:
